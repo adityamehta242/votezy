@@ -7,5 +7,5 @@ import com.aditya.entity.Voter;
 
 @Repository
 public interface VoterRepository extends JpaRepository<Voter, Long>{
-	public Boolean exexistsByEmail(String email);
+	public Boolean existsByEmail(String email);
 }
