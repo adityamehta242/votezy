@@ -1,0 +1,1477 @@
+2025-05-30 00:06:53 [File Watcher] INFO  [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-30 00:06:53 [Thread-27] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-30 00:06:53 [tomcat-shutdown] INFO  [o.a.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-30 00:06:53 [tomcat-shutdown] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Graceful shutdown complete
+2025-05-30 00:06:53 [Thread-27] INFO  [o.a.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-30 00:06:53 [Thread-27] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 00:06:53 [Thread-27] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-7 - Shutdown initiated...
+2025-05-30 00:06:53 [Thread-27] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-7 - Shutdown completed.
+2025-05-30 00:06:53 [restartedMain] INFO  [com.aditya.VotezyApplication] - Starting VotezyApplication using Java 21.0.4 with PID 12660 (D:\Code-Practice\Spring-STS\votezy\target\classes started by Aditya-Mehta in D:\Code-Practice\Spring-STS\votezy)
+2025-05-30 00:06:53 [restartedMain] INFO  [com.aditya.VotezyApplication] - No active profile set, falling back to 1 default profile: "default"
+2025-05-30 00:06:53 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-30 00:06:53 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 10 ms. Found 4 JPA repository interfaces.
+2025-05-30 00:06:54 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2025-05-30 00:06:54 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-30 00:06:54 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-05-30 00:06:54 [restartedMain] INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-30 00:06:54 [restartedMain] INFO  [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2025-05-30 00:06:54 [restartedMain] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 294 ms
+2025-05-30 00:06:54 [restartedMain] INFO  [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-30 00:06:54 [restartedMain] INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2025-05-30 00:06:54 [restartedMain] INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-30 00:06:54 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-8 - Starting...
+2025-05-30 00:06:54 [restartedMain] INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@699acd1a
+2025-05-30 00:06:54 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-8 - Start completed.
+2025-05-30 00:06:54 [restartedMain] WARN  [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-30 00:06:54 [restartedMain] INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-8)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-30 00:06:54 [restartedMain] INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-30 00:06:54 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 00:06:54 [restartedMain] WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-30 00:06:54 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - 5 mappings in 'requestMappingHandlerMapping'
+2025-05-30 00:06:54 [restartedMain] DEBUG [o.s.w.s.h.SimpleUrlHandlerMapping] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-05-30 00:06:54 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerAdapter] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-05-30 00:06:54 [restartedMain] DEBUG [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-05-30 00:06:54 [restartedMain] INFO  [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2025-05-30 00:06:54 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-30 00:06:54 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path '/'
+2025-05-30 00:06:54 [restartedMain] INFO  [com.aditya.VotezyApplication] - Started VotezyApplication in 0.799 seconds (process running for 1460.011)
+2025-05-30 00:06:54 [restartedMain] INFO  [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2025-05-30 00:07:33 [File Watcher] INFO  [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] - Restarting due to 6 class path changes (1 addition, 1 deletion, 4 modifications)
+2025-05-30 00:07:33 [Thread-31] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-30 00:07:33 [tomcat-shutdown] INFO  [o.a.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-30 00:07:33 [tomcat-shutdown] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Graceful shutdown complete
+2025-05-30 00:07:33 [Thread-31] INFO  [o.a.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-30 00:07:33 [Thread-31] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 00:07:33 [Thread-31] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-8 - Shutdown initiated...
+2025-05-30 00:07:33 [Thread-31] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-8 - Shutdown completed.
+2025-05-30 00:07:33 [restartedMain] INFO  [com.aditya.VotezyApplication] - Starting VotezyApplication using Java 21.0.4 with PID 12660 (D:\Code-Practice\Spring-STS\votezy\target\classes started by Aditya-Mehta in D:\Code-Practice\Spring-STS\votezy)
+2025-05-30 00:07:33 [restartedMain] INFO  [com.aditya.VotezyApplication] - No active profile set, falling back to 1 default profile: "default"
+2025-05-30 00:07:33 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-30 00:07:33 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 11 ms. Found 4 JPA repository interfaces.
+2025-05-30 00:07:33 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2025-05-30 00:07:33 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-30 00:07:33 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-05-30 00:07:33 [restartedMain] INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-30 00:07:33 [restartedMain] INFO  [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2025-05-30 00:07:33 [restartedMain] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 249 ms
+2025-05-30 00:07:34 [restartedMain] INFO  [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-30 00:07:34 [restartedMain] INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2025-05-30 00:07:34 [restartedMain] INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-30 00:07:34 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-9 - Starting...
+2025-05-30 00:07:34 [restartedMain] INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-9 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a8117fa
+2025-05-30 00:07:34 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-9 - Start completed.
+2025-05-30 00:07:34 [restartedMain] WARN  [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-30 00:07:34 [restartedMain] INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-9)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-30 00:07:34 [restartedMain] INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-30 00:07:34 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 00:07:34 [restartedMain] WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-30 00:07:34 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - 5 mappings in 'requestMappingHandlerMapping'
+2025-05-30 00:07:34 [restartedMain] DEBUG [o.s.w.s.h.SimpleUrlHandlerMapping] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-05-30 00:07:34 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerAdapter] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-05-30 00:07:34 [restartedMain] DEBUG [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-05-30 00:07:34 [restartedMain] INFO  [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2025-05-30 00:07:34 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-30 00:07:34 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path '/'
+2025-05-30 00:07:34 [restartedMain] INFO  [com.aditya.VotezyApplication] - Started VotezyApplication in 0.656 seconds (process running for 1499.814)
+2025-05-30 00:07:34 [restartedMain] INFO  [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2025-05-30 00:08:42 [File Watcher] INFO  [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-05-30 00:08:42 [Thread-35] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-30 00:08:42 [tomcat-shutdown] INFO  [o.a.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-30 00:08:43 [tomcat-shutdown] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Graceful shutdown complete
+2025-05-30 00:08:43 [Thread-35] INFO  [o.a.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-30 00:08:43 [Thread-35] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 00:08:43 [Thread-35] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-9 - Shutdown initiated...
+2025-05-30 00:08:43 [Thread-35] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-9 - Shutdown completed.
+2025-05-30 00:08:43 [restartedMain] INFO  [com.aditya.VotezyApplication] - Starting VotezyApplication using Java 21.0.4 with PID 12660 (D:\Code-Practice\Spring-STS\votezy\target\classes started by Aditya-Mehta in D:\Code-Practice\Spring-STS\votezy)
+2025-05-30 00:08:43 [restartedMain] INFO  [com.aditya.VotezyApplication] - No active profile set, falling back to 1 default profile: "default"
+2025-05-30 00:08:43 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-30 00:08:43 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 9 ms. Found 4 JPA repository interfaces.
+2025-05-30 00:08:43 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2025-05-30 00:08:43 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-30 00:08:43 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-05-30 00:08:43 [restartedMain] INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-30 00:08:43 [restartedMain] INFO  [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2025-05-30 00:08:43 [restartedMain] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 224 ms
+2025-05-30 00:08:43 [restartedMain] INFO  [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-30 00:08:43 [restartedMain] INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2025-05-30 00:08:43 [restartedMain] INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-30 00:08:43 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-10 - Starting...
+2025-05-30 00:08:43 [restartedMain] INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-10 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ba18091
+2025-05-30 00:08:43 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-10 - Start completed.
+2025-05-30 00:08:43 [restartedMain] WARN  [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-30 00:08:43 [restartedMain] INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-10)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-30 00:08:43 [restartedMain] INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-30 00:08:43 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 00:08:43 [restartedMain] WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-30 00:08:43 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - 5 mappings in 'requestMappingHandlerMapping'
+2025-05-30 00:08:43 [restartedMain] DEBUG [o.s.w.s.h.SimpleUrlHandlerMapping] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-05-30 00:08:43 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerAdapter] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-05-30 00:08:43 [restartedMain] DEBUG [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-05-30 00:08:43 [restartedMain] INFO  [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2025-05-30 00:08:43 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-30 00:08:43 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path '/'
+2025-05-30 00:08:43 [restartedMain] INFO  [com.aditya.VotezyApplication] - Started VotezyApplication in 0.618 seconds (process running for 1569.111)
+2025-05-30 00:08:43 [restartedMain] INFO  [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2025-05-30 00:28:53 [File Watcher] INFO  [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-30 00:28:53 [Thread-39] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-30 00:28:53 [tomcat-shutdown] INFO  [o.a.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-30 00:28:53 [tomcat-shutdown] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Graceful shutdown complete
+2025-05-30 00:28:53 [Thread-39] INFO  [o.a.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-30 00:28:53 [Thread-39] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 00:28:53 [Thread-39] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-10 - Shutdown initiated...
+2025-05-30 00:28:53 [Thread-39] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-10 - Shutdown completed.
+2025-05-30 00:28:53 [restartedMain] INFO  [com.aditya.VotezyApplication] - Starting VotezyApplication using Java 21.0.4 with PID 12660 (D:\Code-Practice\Spring-STS\votezy\target\classes started by Aditya-Mehta in D:\Code-Practice\Spring-STS\votezy)
+2025-05-30 00:28:53 [restartedMain] INFO  [com.aditya.VotezyApplication] - No active profile set, falling back to 1 default profile: "default"
+2025-05-30 00:28:53 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-30 00:28:53 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 11 ms. Found 4 JPA repository interfaces.
+2025-05-30 00:28:53 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2025-05-30 00:28:53 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-30 00:28:53 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-05-30 00:28:53 [restartedMain] INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-30 00:28:53 [restartedMain] INFO  [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2025-05-30 00:28:53 [restartedMain] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 291 ms
+2025-05-30 00:28:53 [restartedMain] INFO  [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-30 00:28:53 [restartedMain] INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2025-05-30 00:28:53 [restartedMain] INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-30 00:28:53 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-11 - Starting...
+2025-05-30 00:28:53 [restartedMain] INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-11 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b63935c
+2025-05-30 00:28:53 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-11 - Start completed.
+2025-05-30 00:28:53 [restartedMain] WARN  [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-30 00:28:53 [restartedMain] INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-11)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-30 00:28:53 [restartedMain] INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-30 00:28:53 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 00:28:53 [restartedMain] WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-30 00:28:53 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - 5 mappings in 'requestMappingHandlerMapping'
+2025-05-30 00:28:53 [restartedMain] DEBUG [o.s.w.s.h.SimpleUrlHandlerMapping] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-05-30 00:28:53 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerAdapter] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-05-30 00:28:53 [restartedMain] DEBUG [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-05-30 00:28:53 [restartedMain] INFO  [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2025-05-30 00:28:53 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-30 00:28:53 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path '/'
+2025-05-30 00:28:53 [restartedMain] INFO  [com.aditya.VotezyApplication] - Started VotezyApplication in 0.74 seconds (process running for 2779.318)
+2025-05-30 00:28:53 [restartedMain] INFO  [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2025-05-30 00:29:06 [File Watcher] INFO  [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-30 00:29:06 [Thread-43] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-30 00:29:06 [tomcat-shutdown] INFO  [o.a.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-30 00:29:06 [tomcat-shutdown] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Graceful shutdown complete
+2025-05-30 00:29:06 [Thread-43] INFO  [o.a.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-30 00:29:06 [Thread-43] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 00:29:06 [Thread-43] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-11 - Shutdown initiated...
+2025-05-30 00:29:06 [Thread-43] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-11 - Shutdown completed.
+2025-05-30 00:29:06 [restartedMain] INFO  [com.aditya.VotezyApplication] - Starting VotezyApplication using Java 21.0.4 with PID 12660 (D:\Code-Practice\Spring-STS\votezy\target\classes started by Aditya-Mehta in D:\Code-Practice\Spring-STS\votezy)
+2025-05-30 00:29:06 [restartedMain] INFO  [com.aditya.VotezyApplication] - No active profile set, falling back to 1 default profile: "default"
+2025-05-30 00:29:06 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-30 00:29:06 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 11 ms. Found 4 JPA repository interfaces.
+2025-05-30 00:29:06 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2025-05-30 00:29:06 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-30 00:29:06 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-05-30 00:29:06 [restartedMain] INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-30 00:29:06 [restartedMain] INFO  [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2025-05-30 00:29:06 [restartedMain] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 248 ms
+2025-05-30 00:29:06 [restartedMain] INFO  [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-30 00:29:06 [restartedMain] INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2025-05-30 00:29:06 [restartedMain] INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-30 00:29:06 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-12 - Starting...
+2025-05-30 00:29:06 [restartedMain] INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-12 - Added connection com.mysql.cj.jdbc.ConnectionImpl@53263655
+2025-05-30 00:29:06 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-12 - Start completed.
+2025-05-30 00:29:06 [restartedMain] WARN  [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-30 00:29:06 [restartedMain] INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-12)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-30 00:29:06 [restartedMain] INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-30 00:29:07 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 00:29:07 [restartedMain] WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-30 00:29:07 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - 5 mappings in 'requestMappingHandlerMapping'
+2025-05-30 00:29:07 [restartedMain] DEBUG [o.s.w.s.h.SimpleUrlHandlerMapping] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-05-30 00:29:07 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerAdapter] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-05-30 00:29:07 [restartedMain] DEBUG [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-05-30 00:29:07 [restartedMain] INFO  [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2025-05-30 00:29:07 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-30 00:29:07 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path '/'
+2025-05-30 00:29:07 [restartedMain] INFO  [com.aditya.VotezyApplication] - Started VotezyApplication in 0.632 seconds (process running for 2792.629)
+2025-05-30 00:29:07 [restartedMain] INFO  [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2025-05-30 00:30:00 [File Watcher] INFO  [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-30 00:30:00 [Thread-47] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-30 00:30:00 [tomcat-shutdown] INFO  [o.a.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-30 00:30:00 [tomcat-shutdown] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Graceful shutdown complete
+2025-05-30 00:30:00 [Thread-47] INFO  [o.a.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-30 00:30:00 [Thread-47] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 00:30:00 [Thread-47] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-12 - Shutdown initiated...
+2025-05-30 00:30:00 [Thread-47] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-12 - Shutdown completed.
+2025-05-30 00:30:00 [restartedMain] INFO  [com.aditya.VotezyApplication] - Starting VotezyApplication using Java 21.0.4 with PID 12660 (D:\Code-Practice\Spring-STS\votezy\target\classes started by Aditya-Mehta in D:\Code-Practice\Spring-STS\votezy)
+2025-05-30 00:30:00 [restartedMain] INFO  [com.aditya.VotezyApplication] - No active profile set, falling back to 1 default profile: "default"
+2025-05-30 00:30:00 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-30 00:30:00 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 9 ms. Found 4 JPA repository interfaces.
+2025-05-30 00:30:00 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2025-05-30 00:30:00 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-30 00:30:00 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-05-30 00:30:00 [restartedMain] INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-30 00:30:00 [restartedMain] INFO  [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2025-05-30 00:30:00 [restartedMain] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 235 ms
+2025-05-30 00:30:00 [restartedMain] INFO  [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-30 00:30:00 [restartedMain] INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2025-05-30 00:30:00 [restartedMain] INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-30 00:30:00 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-13 - Starting...
+2025-05-30 00:30:00 [restartedMain] INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-13 - Added connection com.mysql.cj.jdbc.ConnectionImpl@380f92f7
+2025-05-30 00:30:00 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-13 - Start completed.
+2025-05-30 00:30:00 [restartedMain] WARN  [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-30 00:30:00 [restartedMain] INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-13)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-30 00:30:01 [restartedMain] INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-30 00:30:01 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 00:30:01 [restartedMain] WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-30 00:30:01 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - 5 mappings in 'requestMappingHandlerMapping'
+2025-05-30 00:30:01 [restartedMain] DEBUG [o.s.w.s.h.SimpleUrlHandlerMapping] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-05-30 00:30:01 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerAdapter] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-05-30 00:30:01 [restartedMain] DEBUG [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-05-30 00:30:01 [restartedMain] INFO  [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2025-05-30 00:30:01 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-30 00:30:01 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path '/'
+2025-05-30 00:30:01 [restartedMain] INFO  [com.aditya.VotezyApplication] - Started VotezyApplication in 0.662 seconds (process running for 2846.692)
+2025-05-30 00:30:01 [restartedMain] INFO  [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2025-05-30 00:33:58 [File Watcher] INFO  [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-30 00:33:58 [Thread-51] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-30 00:33:58 [tomcat-shutdown] INFO  [o.a.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-30 00:33:58 [tomcat-shutdown] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Graceful shutdown complete
+2025-05-30 00:33:58 [Thread-51] INFO  [o.a.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-30 00:33:58 [Thread-51] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 00:33:58 [Thread-51] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-13 - Shutdown initiated...
+2025-05-30 00:33:58 [Thread-51] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-13 - Shutdown completed.
+2025-05-30 00:33:59 [restartedMain] INFO  [com.aditya.VotezyApplication] - Starting VotezyApplication using Java 21.0.4 with PID 12660 (D:\Code-Practice\Spring-STS\votezy\target\classes started by Aditya-Mehta in D:\Code-Practice\Spring-STS\votezy)
+2025-05-30 00:33:59 [restartedMain] INFO  [com.aditya.VotezyApplication] - No active profile set, falling back to 1 default profile: "default"
+2025-05-30 00:33:59 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-30 00:33:59 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 10 ms. Found 4 JPA repository interfaces.
+2025-05-30 00:33:59 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2025-05-30 00:33:59 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-30 00:33:59 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-05-30 00:33:59 [restartedMain] INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-30 00:33:59 [restartedMain] INFO  [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2025-05-30 00:33:59 [restartedMain] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 235 ms
+2025-05-30 00:33:59 [restartedMain] INFO  [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-30 00:33:59 [restartedMain] INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2025-05-30 00:33:59 [restartedMain] INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-30 00:33:59 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-14 - Starting...
+2025-05-30 00:33:59 [restartedMain] INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-14 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2f3662ee
+2025-05-30 00:33:59 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-14 - Start completed.
+2025-05-30 00:33:59 [restartedMain] WARN  [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-30 00:33:59 [restartedMain] INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-14)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-30 00:33:59 [restartedMain] INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-30 00:33:59 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 00:33:59 [restartedMain] WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-30 00:33:59 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - 5 mappings in 'requestMappingHandlerMapping'
+2025-05-30 00:33:59 [restartedMain] DEBUG [o.s.w.s.h.SimpleUrlHandlerMapping] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-05-30 00:33:59 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerAdapter] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-05-30 00:33:59 [restartedMain] DEBUG [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-05-30 00:33:59 [restartedMain] INFO  [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2025-05-30 00:33:59 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-30 00:33:59 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path '/'
+2025-05-30 00:33:59 [restartedMain] INFO  [com.aditya.VotezyApplication] - Started VotezyApplication in 0.727 seconds (process running for 3085.162)
+2025-05-30 00:33:59 [restartedMain] INFO  [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2025-05-30 00:34:33 [File Watcher] INFO  [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-30 00:34:33 [Thread-55] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-30 00:34:33 [tomcat-shutdown] INFO  [o.a.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-30 00:34:33 [tomcat-shutdown] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Graceful shutdown complete
+2025-05-30 00:34:33 [Thread-55] INFO  [o.a.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-30 00:34:33 [Thread-55] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 00:34:33 [Thread-55] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-14 - Shutdown initiated...
+2025-05-30 00:34:33 [Thread-55] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-14 - Shutdown completed.
+2025-05-30 00:34:33 [restartedMain] INFO  [com.aditya.VotezyApplication] - Starting VotezyApplication using Java 21.0.4 with PID 12660 (D:\Code-Practice\Spring-STS\votezy\target\classes started by Aditya-Mehta in D:\Code-Practice\Spring-STS\votezy)
+2025-05-30 00:34:33 [restartedMain] INFO  [com.aditya.VotezyApplication] - No active profile set, falling back to 1 default profile: "default"
+2025-05-30 00:34:33 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-30 00:34:33 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 10 ms. Found 4 JPA repository interfaces.
+2025-05-30 00:34:33 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2025-05-30 00:34:33 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-30 00:34:33 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-05-30 00:34:33 [restartedMain] INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-30 00:34:34 [restartedMain] INFO  [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2025-05-30 00:34:34 [restartedMain] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 235 ms
+2025-05-30 00:34:34 [restartedMain] INFO  [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-30 00:34:34 [restartedMain] INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2025-05-30 00:34:34 [restartedMain] INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-30 00:34:34 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-15 - Starting...
+2025-05-30 00:34:34 [restartedMain] INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-15 - Added connection com.mysql.cj.jdbc.ConnectionImpl@665dbdc2
+2025-05-30 00:34:34 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-15 - Start completed.
+2025-05-30 00:34:34 [restartedMain] WARN  [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-30 00:34:34 [restartedMain] INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-15)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-30 00:34:34 [restartedMain] INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-30 00:34:34 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 00:34:34 [restartedMain] WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-30 00:34:34 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - 5 mappings in 'requestMappingHandlerMapping'
+2025-05-30 00:34:34 [restartedMain] DEBUG [o.s.w.s.h.SimpleUrlHandlerMapping] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-05-30 00:34:34 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerAdapter] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-05-30 00:34:34 [restartedMain] DEBUG [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-05-30 00:34:34 [restartedMain] INFO  [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2025-05-30 00:34:34 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-30 00:34:34 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path '/'
+2025-05-30 00:34:34 [restartedMain] INFO  [com.aditya.VotezyApplication] - Started VotezyApplication in 0.599 seconds (process running for 3119.776)
+2025-05-30 00:34:34 [restartedMain] INFO  [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2025-05-30 01:10:13 [HikariPool-15 housekeeper] WARN  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-15 - Thread starvation or clock leap detected (housekeeper delta=19m39s623ms697µs300ns).
+2025-05-30 01:11:25 [File Watcher] INFO  [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] - Restarting due to 6 class path changes (0 additions, 2 deletions, 4 modifications)
+2025-05-30 01:11:25 [Thread-59] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-30 01:11:25 [tomcat-shutdown] INFO  [o.a.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:11:25 [tomcat-shutdown] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Graceful shutdown complete
+2025-05-30 01:11:25 [Thread-59] INFO  [o.a.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:11:25 [Thread-59] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 01:11:25 [Thread-59] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-15 - Shutdown initiated...
+2025-05-30 01:11:25 [Thread-59] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-15 - Shutdown completed.
+2025-05-30 01:11:26 [restartedMain] INFO  [com.aditya.VotezyApplication] - Starting VotezyApplication using Java 21.0.4 with PID 12660 (D:\Code-Practice\Spring-STS\votezy\target\classes started by Aditya-Mehta in D:\Code-Practice\Spring-STS\votezy)
+2025-05-30 01:11:26 [restartedMain] INFO  [com.aditya.VotezyApplication] - No active profile set, falling back to 1 default profile: "default"
+2025-05-30 01:11:26 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-30 01:11:26 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 20 ms. Found 4 JPA repository interfaces.
+2025-05-30 01:11:26 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2025-05-30 01:11:26 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:11:26 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-05-30 01:11:26 [restartedMain] INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-30 01:11:26 [restartedMain] INFO  [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2025-05-30 01:11:26 [restartedMain] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 537 ms
+2025-05-30 01:11:26 [restartedMain] INFO  [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-30 01:11:26 [restartedMain] INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2025-05-30 01:11:26 [restartedMain] INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-30 01:11:26 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-16 - Starting...
+2025-05-30 01:11:26 [restartedMain] INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-16 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2de62720
+2025-05-30 01:11:26 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-16 - Start completed.
+2025-05-30 01:11:26 [restartedMain] WARN  [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-30 01:11:26 [restartedMain] INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-16)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-30 01:11:26 [restartedMain] INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-30 01:11:26 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 01:11:26 [restartedMain] WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-30 01:11:27 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - 5 mappings in 'requestMappingHandlerMapping'
+2025-05-30 01:11:27 [restartedMain] DEBUG [o.s.w.s.h.SimpleUrlHandlerMapping] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-05-30 01:11:27 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerAdapter] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-05-30 01:11:27 [restartedMain] DEBUG [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-05-30 01:11:27 [restartedMain] INFO  [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2025-05-30 01:11:27 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:11:27 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path '/'
+2025-05-30 01:11:27 [restartedMain] INFO  [com.aditya.VotezyApplication] - Started VotezyApplication in 1.196 seconds (process running for 5332.664)
+2025-05-30 01:11:27 [restartedMain] INFO  [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2025-05-30 01:11:31 [File Watcher] INFO  [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] - Restarting due to 4 class path changes (0 additions, 1 deletion, 3 modifications)
+2025-05-30 01:11:31 [Thread-63] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-30 01:11:31 [tomcat-shutdown] INFO  [o.a.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:11:31 [tomcat-shutdown] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Graceful shutdown complete
+2025-05-30 01:11:31 [Thread-63] INFO  [o.a.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:11:31 [Thread-63] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 01:11:31 [Thread-63] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-16 - Shutdown initiated...
+2025-05-30 01:11:31 [Thread-63] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-16 - Shutdown completed.
+2025-05-30 01:11:31 [restartedMain] INFO  [com.aditya.VotezyApplication] - Starting VotezyApplication using Java 21.0.4 with PID 12660 (D:\Code-Practice\Spring-STS\votezy\target\classes started by Aditya-Mehta in D:\Code-Practice\Spring-STS\votezy)
+2025-05-30 01:11:31 [restartedMain] INFO  [com.aditya.VotezyApplication] - No active profile set, falling back to 1 default profile: "default"
+2025-05-30 01:11:31 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-30 01:11:31 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 8 ms. Found 4 JPA repository interfaces.
+2025-05-30 01:11:31 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2025-05-30 01:11:31 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:11:31 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-05-30 01:11:31 [restartedMain] INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-30 01:11:31 [restartedMain] INFO  [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2025-05-30 01:11:31 [restartedMain] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 215 ms
+2025-05-30 01:11:31 [restartedMain] INFO  [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-30 01:11:31 [restartedMain] INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2025-05-30 01:11:32 [restartedMain] INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-30 01:11:32 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-17 - Starting...
+2025-05-30 01:11:32 [restartedMain] INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-17 - Added connection com.mysql.cj.jdbc.ConnectionImpl@25e839d8
+2025-05-30 01:11:32 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-17 - Start completed.
+2025-05-30 01:11:32 [restartedMain] WARN  [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-30 01:11:32 [restartedMain] INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-17)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-30 01:11:32 [restartedMain] INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-30 01:11:32 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 01:11:32 [restartedMain] WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-30 01:11:32 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - 5 mappings in 'requestMappingHandlerMapping'
+2025-05-30 01:11:32 [restartedMain] DEBUG [o.s.w.s.h.SimpleUrlHandlerMapping] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-05-30 01:11:32 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerAdapter] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-05-30 01:11:32 [restartedMain] DEBUG [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-05-30 01:11:32 [restartedMain] INFO  [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2025-05-30 01:11:32 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:11:32 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path '/'
+2025-05-30 01:11:32 [restartedMain] INFO  [com.aditya.VotezyApplication] - Started VotezyApplication in 0.6 seconds (process running for 5337.804)
+2025-05-30 01:11:32 [restartedMain] INFO  [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2025-05-30 01:11:58 [File Watcher] INFO  [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-30 01:11:58 [Thread-67] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-30 01:11:58 [tomcat-shutdown] INFO  [o.a.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:11:58 [tomcat-shutdown] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Graceful shutdown complete
+2025-05-30 01:11:58 [Thread-67] INFO  [o.a.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:11:58 [Thread-67] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 01:11:58 [Thread-67] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-17 - Shutdown initiated...
+2025-05-30 01:11:58 [Thread-67] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-17 - Shutdown completed.
+2025-05-30 01:11:58 [restartedMain] INFO  [com.aditya.VotezyApplication] - Starting VotezyApplication using Java 21.0.4 with PID 12660 (D:\Code-Practice\Spring-STS\votezy\target\classes started by Aditya-Mehta in D:\Code-Practice\Spring-STS\votezy)
+2025-05-30 01:11:58 [restartedMain] INFO  [com.aditya.VotezyApplication] - No active profile set, falling back to 1 default profile: "default"
+2025-05-30 01:11:58 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-30 01:11:58 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 10 ms. Found 4 JPA repository interfaces.
+2025-05-30 01:11:58 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2025-05-30 01:11:58 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:11:58 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-05-30 01:11:58 [restartedMain] INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-30 01:11:58 [restartedMain] INFO  [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2025-05-30 01:11:58 [restartedMain] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 232 ms
+2025-05-30 01:11:58 [restartedMain] INFO  [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-30 01:11:58 [restartedMain] INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2025-05-30 01:11:58 [restartedMain] INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-30 01:11:58 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-18 - Starting...
+2025-05-30 01:11:58 [restartedMain] INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-18 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1826ac73
+2025-05-30 01:11:58 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-18 - Start completed.
+2025-05-30 01:11:58 [restartedMain] WARN  [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-30 01:11:58 [restartedMain] INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-18)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-30 01:11:58 [restartedMain] INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-30 01:11:58 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 01:11:58 [restartedMain] WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-30 01:11:58 [restartedMain] WARN  [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'voterController' method 
+com.aditya.controller.VoterController#updateVoter(Long, Voter)
+to {GET [/api/voters/{id}]}: There is already 'voterController' bean method
+com.aditya.controller.VoterController#getVoterById(Long) mapped.
+2025-05-30 01:11:58 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 01:11:58 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-18 - Shutdown initiated...
+2025-05-30 01:11:58 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-18 - Shutdown completed.
+2025-05-30 01:11:58 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Stopping service [Tomcat]
+2025-05-30 01:11:58 [restartedMain] INFO  [o.s.b.a.l.ConditionEvaluationReportLogger] - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-30 01:11:58 [restartedMain] ERROR [o.s.boot.SpringApplication] - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'voterController' method 
+com.aditya.controller.VoterController#updateVoter(Long, Voter)
+to {GET [/api/voters/{id}]}: There is already 'voterController' bean method
+com.aditya.controller.VoterController#getVoterById(Long) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1818)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1122)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351)
+	at com.aditya.VotezyApplication.main(VotezyApplication.java:10)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'voterController' method 
+com.aditya.controller.VoterController#updateVoter(Long, Voter)
+to {GET [/api/voters/{id}]}: There is already 'voterController' bean method
+com.aditya.controller.VoterController#getVoterById(Long) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:676)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:637)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:331)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:507)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:84)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:298)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:986)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:296)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:265)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:224)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:212)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:237)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1865)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1814)
+	... 21 common frames omitted
+2025-05-30 01:13:10 [restartedMain] INFO  [com.aditya.VotezyApplication] - Starting VotezyApplication using Java 21.0.4 with PID 12660 (D:\Code-Practice\Spring-STS\votezy\target\classes started by Aditya-Mehta in D:\Code-Practice\Spring-STS\votezy)
+2025-05-30 01:13:10 [restartedMain] INFO  [com.aditya.VotezyApplication] - No active profile set, falling back to 1 default profile: "default"
+2025-05-30 01:13:10 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-30 01:13:10 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 9 ms. Found 4 JPA repository interfaces.
+2025-05-30 01:13:10 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2025-05-30 01:13:10 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:13:10 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-05-30 01:13:10 [restartedMain] INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-30 01:13:10 [restartedMain] INFO  [o.a.c.c.C.[Tomcat-1].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2025-05-30 01:13:10 [restartedMain] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 268 ms
+2025-05-30 01:13:10 [restartedMain] INFO  [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-30 01:13:10 [restartedMain] INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2025-05-30 01:13:10 [restartedMain] INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-30 01:13:10 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-19 - Starting...
+2025-05-30 01:13:10 [restartedMain] INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-19 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3907d80f
+2025-05-30 01:13:10 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-19 - Start completed.
+2025-05-30 01:13:10 [restartedMain] WARN  [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-30 01:13:10 [restartedMain] INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-19)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-30 01:13:11 [restartedMain] INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-30 01:13:11 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 01:13:11 [restartedMain] WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-30 01:13:11 [restartedMain] WARN  [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'voterController' method 
+com.aditya.controller.VoterController#updateVoter(Long, Voter)
+to {GET [/api/voters/{id}]}: There is already 'voterController' bean method
+com.aditya.controller.VoterController#getVoterById(Long) mapped.
+2025-05-30 01:13:11 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 01:13:11 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-19 - Shutdown initiated...
+2025-05-30 01:13:11 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-19 - Shutdown completed.
+2025-05-30 01:13:11 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Stopping service [Tomcat]
+2025-05-30 01:13:11 [restartedMain] INFO  [o.s.b.a.l.ConditionEvaluationReportLogger] - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-30 01:13:11 [restartedMain] ERROR [o.s.boot.SpringApplication] - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'voterController' method 
+com.aditya.controller.VoterController#updateVoter(Long, Voter)
+to {GET [/api/voters/{id}]}: There is already 'voterController' bean method
+com.aditya.controller.VoterController#getVoterById(Long) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1818)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1122)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351)
+	at com.aditya.VotezyApplication.main(VotezyApplication.java:10)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'voterController' method 
+com.aditya.controller.VoterController#updateVoter(Long, Voter)
+to {GET [/api/voters/{id}]}: There is already 'voterController' bean method
+com.aditya.controller.VoterController#getVoterById(Long) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:676)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:637)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:331)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:507)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:84)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:298)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:986)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:296)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:265)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:224)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:212)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:237)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1865)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1814)
+	... 21 common frames omitted
+2025-05-30 01:13:30 [restartedMain] INFO  [com.aditya.VotezyApplication] - Starting VotezyApplication using Java 21.0.4 with PID 12660 (D:\Code-Practice\Spring-STS\votezy\target\classes started by Aditya-Mehta in D:\Code-Practice\Spring-STS\votezy)
+2025-05-30 01:13:30 [restartedMain] INFO  [com.aditya.VotezyApplication] - No active profile set, falling back to 1 default profile: "default"
+2025-05-30 01:13:31 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-30 01:13:31 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 10 ms. Found 4 JPA repository interfaces.
+2025-05-30 01:13:31 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2025-05-30 01:13:31 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:13:31 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-05-30 01:13:31 [restartedMain] INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-30 01:13:31 [restartedMain] INFO  [o.a.c.c.C.[Tomcat-2].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2025-05-30 01:13:31 [restartedMain] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 240 ms
+2025-05-30 01:13:31 [restartedMain] INFO  [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-30 01:13:31 [restartedMain] INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2025-05-30 01:13:31 [restartedMain] INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-30 01:13:31 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-20 - Starting...
+2025-05-30 01:13:31 [restartedMain] INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-20 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6c15f624
+2025-05-30 01:13:31 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-20 - Start completed.
+2025-05-30 01:13:31 [restartedMain] WARN  [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-30 01:13:31 [restartedMain] INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-20)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-30 01:13:31 [restartedMain] INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-30 01:13:31 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 01:13:31 [restartedMain] WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-30 01:13:31 [restartedMain] WARN  [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'voterController' method 
+com.aditya.controller.VoterController#updateVoter(Long, Voter)
+to {GET [/api/voters/{id}]}: There is already 'voterController' bean method
+com.aditya.controller.VoterController#getVoterById(Long) mapped.
+2025-05-30 01:13:31 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 01:13:31 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-20 - Shutdown initiated...
+2025-05-30 01:13:31 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-20 - Shutdown completed.
+2025-05-30 01:13:31 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Stopping service [Tomcat]
+2025-05-30 01:13:31 [restartedMain] INFO  [o.s.b.a.l.ConditionEvaluationReportLogger] - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-30 01:13:31 [restartedMain] ERROR [o.s.boot.SpringApplication] - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'voterController' method 
+com.aditya.controller.VoterController#updateVoter(Long, Voter)
+to {GET [/api/voters/{id}]}: There is already 'voterController' bean method
+com.aditya.controller.VoterController#getVoterById(Long) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1818)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1122)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351)
+	at com.aditya.VotezyApplication.main(VotezyApplication.java:10)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'voterController' method 
+com.aditya.controller.VoterController#updateVoter(Long, Voter)
+to {GET [/api/voters/{id}]}: There is already 'voterController' bean method
+com.aditya.controller.VoterController#getVoterById(Long) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:676)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:637)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:331)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:507)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:84)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:298)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:986)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:296)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:265)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:224)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:212)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:237)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1865)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1814)
+	... 21 common frames omitted
+2025-05-30 01:15:18 [restartedMain] INFO  [com.aditya.VotezyApplication] - Starting VotezyApplication using Java 21.0.4 with PID 12660 (D:\Code-Practice\Spring-STS\votezy\target\classes started by Aditya-Mehta in D:\Code-Practice\Spring-STS\votezy)
+2025-05-30 01:15:18 [restartedMain] INFO  [com.aditya.VotezyApplication] - No active profile set, falling back to 1 default profile: "default"
+2025-05-30 01:15:19 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-30 01:15:19 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 10 ms. Found 4 JPA repository interfaces.
+2025-05-30 01:15:19 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2025-05-30 01:15:19 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:15:19 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-05-30 01:15:19 [restartedMain] INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-30 01:15:19 [restartedMain] INFO  [o.a.c.c.C.[Tomcat-3].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2025-05-30 01:15:19 [restartedMain] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 233 ms
+2025-05-30 01:15:19 [restartedMain] INFO  [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-30 01:15:19 [restartedMain] INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2025-05-30 01:15:19 [restartedMain] INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-30 01:15:19 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-21 - Starting...
+2025-05-30 01:15:19 [restartedMain] INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-21 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b9006e4
+2025-05-30 01:15:19 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-21 - Start completed.
+2025-05-30 01:15:19 [restartedMain] WARN  [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-30 01:15:19 [restartedMain] INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-21)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-30 01:15:19 [restartedMain] INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-30 01:15:19 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 01:15:19 [restartedMain] WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-30 01:15:19 [restartedMain] WARN  [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'voterController' method 
+com.aditya.controller.VoterController#updateVoter(Long, Voter)
+to {GET [/api/voters/{id}]}: There is already 'voterController' bean method
+com.aditya.controller.VoterController#getVoterById(Long) mapped.
+2025-05-30 01:15:19 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 01:15:19 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-21 - Shutdown initiated...
+2025-05-30 01:15:19 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-21 - Shutdown completed.
+2025-05-30 01:15:19 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Stopping service [Tomcat]
+2025-05-30 01:15:19 [restartedMain] INFO  [o.s.b.a.l.ConditionEvaluationReportLogger] - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-30 01:15:19 [restartedMain] ERROR [o.s.boot.SpringApplication] - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'voterController' method 
+com.aditya.controller.VoterController#updateVoter(Long, Voter)
+to {GET [/api/voters/{id}]}: There is already 'voterController' bean method
+com.aditya.controller.VoterController#getVoterById(Long) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1818)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1122)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351)
+	at com.aditya.VotezyApplication.main(VotezyApplication.java:10)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'voterController' method 
+com.aditya.controller.VoterController#updateVoter(Long, Voter)
+to {GET [/api/voters/{id}]}: There is already 'voterController' bean method
+com.aditya.controller.VoterController#getVoterById(Long) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:676)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:637)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:331)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:507)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:84)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:298)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:986)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:296)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:265)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:224)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:212)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:237)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1865)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1814)
+	... 21 common frames omitted
+2025-05-30 01:15:27 [restartedMain] INFO  [com.aditya.VotezyApplication] - Starting VotezyApplication using Java 21.0.4 with PID 12660 (D:\Code-Practice\Spring-STS\votezy\target\classes started by Aditya-Mehta in D:\Code-Practice\Spring-STS\votezy)
+2025-05-30 01:15:27 [restartedMain] INFO  [com.aditya.VotezyApplication] - No active profile set, falling back to 1 default profile: "default"
+2025-05-30 01:15:28 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-30 01:15:28 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 32 ms. Found 4 JPA repository interfaces.
+2025-05-30 01:15:28 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2025-05-30 01:15:28 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:15:28 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-05-30 01:15:28 [restartedMain] INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-30 01:15:28 [restartedMain] INFO  [o.a.c.c.C.[Tomcat-4].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2025-05-30 01:15:28 [restartedMain] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 318 ms
+2025-05-30 01:15:28 [restartedMain] INFO  [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-30 01:15:28 [restartedMain] INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2025-05-30 01:15:28 [restartedMain] INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-30 01:15:28 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-22 - Starting...
+2025-05-30 01:15:28 [restartedMain] INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-22 - Added connection com.mysql.cj.jdbc.ConnectionImpl@520eb295
+2025-05-30 01:15:28 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-22 - Start completed.
+2025-05-30 01:15:28 [restartedMain] WARN  [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-30 01:15:28 [restartedMain] INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-22)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-30 01:15:28 [restartedMain] INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-30 01:15:28 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 01:15:28 [restartedMain] WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-30 01:15:28 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - 6 mappings in 'requestMappingHandlerMapping'
+2025-05-30 01:15:28 [restartedMain] DEBUG [o.s.w.s.h.SimpleUrlHandlerMapping] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-05-30 01:15:28 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerAdapter] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-05-30 01:15:28 [restartedMain] DEBUG [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-05-30 01:15:28 [restartedMain] INFO  [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2025-05-30 01:15:28 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:15:28 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path '/'
+2025-05-30 01:15:28 [restartedMain] INFO  [com.aditya.VotezyApplication] - Started VotezyApplication in 0.679 seconds (process running for 5574.12)
+2025-05-30 01:15:28 [restartedMain] INFO  [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2025-05-30 01:17:15 [http-nio-8080-exec-2] INFO  [o.a.c.c.C.[Tomcat-4].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-30 01:17:15 [http-nio-8080-exec-2] INFO  [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2025-05-30 01:17:15 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected StandardServletMultipartResolver
+2025-05-30 01:17:15 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected AcceptHeaderLocaleResolver
+2025-05-30 01:17:15 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected FixedThemeResolver
+2025-05-30 01:17:15 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3a516bd4
+2025-05-30 01:17:15 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected org.springframework.web.servlet.support.SessionFlashMapManager@63dc85a2
+2025-05-30 01:17:15 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-05-30 01:17:15 [http-nio-8080-exec-2] INFO  [o.s.web.servlet.DispatcherServlet] - Completed initialization in 3 ms
+2025-05-30 01:17:15 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - PUT "/api/voters/update/2", parameters={}
+2025-05-30 01:17:15 [http-nio-8080-exec-2] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - Mapped to com.aditya.controller.VoterController#updateVoter(Long, Voter)
+2025-05-30 01:17:15 [http-nio-8080-exec-2] DEBUG [o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor] - Read "application/json;charset=UTF-8" to [Voter(id=null, name=aman kumar, email=amankumar.2002@gmail.com, has_voted=false, voterImg=null, vote (truncated)...]
+2025-05-30 01:17:15 [http-nio-8080-exec-2] DEBUG [org.hibernate.SQL] - select v1_0.id,v1_0.email,v1_0.has_voted,v1_0.name,v2_0.id,c1_0.id,c1_0.email,c1_0.name,c1_0.party_name,c1_0.voter_img,c1_0.vote_count,v1_0.voter_img from voter v1_0 left join vote v2_0 on v1_0.id=v2_0.candidate_id left join candidate c1_0 on c1_0.id=v2_0.voter_id where v1_0.id=?
+2025-05-30 01:17:15 [http-nio-8080-exec-2] INFO  [com.aditya.service.VoterService] - Voter ID 2 update successfully
+2025-05-30 01:17:15 [http-nio-8080-exec-2] DEBUG [o.s.w.s.m.m.a.HttpEntityMethodProcessor] - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-05-30 01:17:15 [http-nio-8080-exec-2] DEBUG [o.s.w.s.m.m.a.HttpEntityMethodProcessor] - Writing [Voter(id=2, name=aman kumar, email=amankumar.2002@gmail.com, has_voted=false, voterImg=null, vote=nu (truncated)...]
+2025-05-30 01:17:15 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - Completed 201 CREATED
+2025-05-30 01:17:35 [http-nio-8080-exec-3] DEBUG [o.s.web.servlet.DispatcherServlet] - PUT "/api/voters/update/2", parameters={}
+2025-05-30 01:17:35 [http-nio-8080-exec-3] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - Mapped to com.aditya.controller.VoterController#updateVoter(Long, Voter)
+2025-05-30 01:17:35 [http-nio-8080-exec-3] DEBUG [o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor] - Read "application/json;charset=UTF-8" to [Voter(id=null, name=aman Singh, email=amankumar.2002@gmail.com, has_voted=false, voterImg=null, vote (truncated)...]
+2025-05-30 01:17:35 [http-nio-8080-exec-3] DEBUG [org.hibernate.SQL] - select v1_0.id,v1_0.email,v1_0.has_voted,v1_0.name,v2_0.id,c1_0.id,c1_0.email,c1_0.name,c1_0.party_name,c1_0.voter_img,c1_0.vote_count,v1_0.voter_img from voter v1_0 left join vote v2_0 on v1_0.id=v2_0.candidate_id left join candidate c1_0 on c1_0.id=v2_0.voter_id where v1_0.id=?
+2025-05-30 01:17:35 [http-nio-8080-exec-3] INFO  [com.aditya.service.VoterService] - Voter ID 2 update successfully
+2025-05-30 01:17:35 [http-nio-8080-exec-3] DEBUG [org.hibernate.SQL] - update voter set email=?,has_voted=?,name=?,voter_img=? where id=?
+2025-05-30 01:17:35 [http-nio-8080-exec-3] DEBUG [o.s.w.s.m.m.a.HttpEntityMethodProcessor] - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-05-30 01:17:35 [http-nio-8080-exec-3] DEBUG [o.s.w.s.m.m.a.HttpEntityMethodProcessor] - Writing [Voter(id=2, name=aman Singh, email=amankumar.2002@gmail.com, has_voted=false, voterImg=null, vote=nu (truncated)...]
+2025-05-30 01:17:35 [http-nio-8080-exec-3] DEBUG [o.s.web.servlet.DispatcherServlet] - Completed 201 CREATED
+2025-05-30 01:17:45 [http-nio-8080-exec-4] DEBUG [o.s.web.servlet.DispatcherServlet] - PUT "/api/voters/update/2", parameters={}
+2025-05-30 01:17:45 [http-nio-8080-exec-4] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - Mapped to com.aditya.controller.VoterController#updateVoter(Long, Voter)
+2025-05-30 01:17:45 [http-nio-8080-exec-4] DEBUG [o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor] - Read "application/json;charset=UTF-8" to [Voter(id=null, name=aman kunar, email=amankumar.2002@gmail.com, has_voted=false, voterImg=null, vote (truncated)...]
+2025-05-30 01:17:45 [http-nio-8080-exec-4] DEBUG [org.hibernate.SQL] - select v1_0.id,v1_0.email,v1_0.has_voted,v1_0.name,v2_0.id,c1_0.id,c1_0.email,c1_0.name,c1_0.party_name,c1_0.voter_img,c1_0.vote_count,v1_0.voter_img from voter v1_0 left join vote v2_0 on v1_0.id=v2_0.candidate_id left join candidate c1_0 on c1_0.id=v2_0.voter_id where v1_0.id=?
+2025-05-30 01:17:45 [http-nio-8080-exec-4] INFO  [com.aditya.service.VoterService] - Voter ID 2 update successfully
+2025-05-30 01:17:45 [http-nio-8080-exec-4] DEBUG [org.hibernate.SQL] - update voter set email=?,has_voted=?,name=?,voter_img=? where id=?
+2025-05-30 01:17:45 [http-nio-8080-exec-4] DEBUG [o.s.w.s.m.m.a.HttpEntityMethodProcessor] - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-05-30 01:17:45 [http-nio-8080-exec-4] DEBUG [o.s.w.s.m.m.a.HttpEntityMethodProcessor] - Writing [Voter(id=2, name=aman kunar, email=amankumar.2002@gmail.com, has_voted=false, voterImg=null, vote=nu (truncated)...]
+2025-05-30 01:17:45 [http-nio-8080-exec-4] DEBUG [o.s.web.servlet.DispatcherServlet] - Completed 201 CREATED
+2025-05-30 01:18:28 [File Watcher] INFO  [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-30 01:18:28 [Thread-71] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-30 01:18:28 [tomcat-shutdown] INFO  [o.a.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:18:28 [tomcat-shutdown] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Graceful shutdown complete
+2025-05-30 01:18:28 [Thread-71] INFO  [o.a.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:18:28 [Thread-71] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 01:18:28 [Thread-71] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-22 - Shutdown initiated...
+2025-05-30 01:18:28 [Thread-71] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-22 - Shutdown completed.
+2025-05-30 01:18:28 [restartedMain] INFO  [com.aditya.VotezyApplication] - Starting VotezyApplication using Java 21.0.4 with PID 12660 (D:\Code-Practice\Spring-STS\votezy\target\classes started by Aditya-Mehta in D:\Code-Practice\Spring-STS\votezy)
+2025-05-30 01:18:28 [restartedMain] INFO  [com.aditya.VotezyApplication] - No active profile set, falling back to 1 default profile: "default"
+2025-05-30 01:18:28 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-30 01:18:28 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 11 ms. Found 4 JPA repository interfaces.
+2025-05-30 01:18:28 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2025-05-30 01:18:28 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:18:28 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-05-30 01:18:28 [restartedMain] INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-30 01:18:28 [restartedMain] INFO  [o.a.c.c.C.[Tomcat-4].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2025-05-30 01:18:28 [restartedMain] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 300 ms
+2025-05-30 01:18:28 [restartedMain] INFO  [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-30 01:18:28 [restartedMain] INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2025-05-30 01:18:28 [restartedMain] INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-30 01:18:28 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-23 - Starting...
+2025-05-30 01:18:28 [restartedMain] INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-23 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4371d13f
+2025-05-30 01:18:28 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-23 - Start completed.
+2025-05-30 01:18:28 [restartedMain] WARN  [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-30 01:18:28 [restartedMain] INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-23)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-30 01:18:28 [restartedMain] INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-30 01:18:28 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 01:18:28 [restartedMain] WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-30 01:18:29 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - 6 mappings in 'requestMappingHandlerMapping'
+2025-05-30 01:18:29 [restartedMain] DEBUG [o.s.w.s.h.SimpleUrlHandlerMapping] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-05-30 01:18:29 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerAdapter] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-05-30 01:18:29 [restartedMain] DEBUG [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-05-30 01:18:29 [restartedMain] INFO  [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2025-05-30 01:18:29 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:18:29 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path '/'
+2025-05-30 01:18:29 [restartedMain] INFO  [com.aditya.VotezyApplication] - Started VotezyApplication in 0.782 seconds (process running for 5754.607)
+2025-05-30 01:18:29 [restartedMain] INFO  [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2025-05-30 01:26:02 [File Watcher] INFO  [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-30 01:26:02 [Thread-87] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-30 01:26:02 [tomcat-shutdown] INFO  [o.a.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:26:02 [tomcat-shutdown] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Graceful shutdown complete
+2025-05-30 01:26:02 [Thread-87] INFO  [o.a.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:26:02 [Thread-87] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 01:26:02 [Thread-87] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-23 - Shutdown initiated...
+2025-05-30 01:26:02 [Thread-87] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-23 - Shutdown completed.
+2025-05-30 01:26:02 [restartedMain] INFO  [com.aditya.VotezyApplication] - Starting VotezyApplication using Java 21.0.4 with PID 12660 (D:\Code-Practice\Spring-STS\votezy\target\classes started by Aditya-Mehta in D:\Code-Practice\Spring-STS\votezy)
+2025-05-30 01:26:02 [restartedMain] INFO  [com.aditya.VotezyApplication] - No active profile set, falling back to 1 default profile: "default"
+2025-05-30 01:26:02 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-30 01:26:02 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 9 ms. Found 4 JPA repository interfaces.
+2025-05-30 01:26:02 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2025-05-30 01:26:02 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:26:02 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-05-30 01:26:02 [restartedMain] INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-30 01:26:02 [restartedMain] INFO  [o.a.c.c.C.[Tomcat-4].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2025-05-30 01:26:02 [restartedMain] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 308 ms
+2025-05-30 01:26:02 [restartedMain] INFO  [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-30 01:26:02 [restartedMain] INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2025-05-30 01:26:02 [restartedMain] INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-30 01:26:02 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-24 - Starting...
+2025-05-30 01:26:02 [restartedMain] INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-24 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ef6f0
+2025-05-30 01:26:02 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-24 - Start completed.
+2025-05-30 01:26:02 [restartedMain] WARN  [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-30 01:26:02 [restartedMain] INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-24)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-30 01:26:02 [restartedMain] INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-30 01:26:03 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 01:26:03 [restartedMain] WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-30 01:26:03 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - 7 mappings in 'requestMappingHandlerMapping'
+2025-05-30 01:26:03 [restartedMain] DEBUG [o.s.w.s.h.SimpleUrlHandlerMapping] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-05-30 01:26:03 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerAdapter] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-05-30 01:26:03 [restartedMain] DEBUG [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-05-30 01:26:03 [restartedMain] INFO  [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2025-05-30 01:26:03 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:26:03 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path '/'
+2025-05-30 01:26:03 [restartedMain] INFO  [com.aditya.VotezyApplication] - Started VotezyApplication in 1.11 seconds (process running for 6208.912)
+2025-05-30 01:26:03 [restartedMain] INFO  [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2025-05-30 01:26:27 [File Watcher] INFO  [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-05-30 01:26:27 [Thread-91] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-30 01:26:27 [tomcat-shutdown] INFO  [o.a.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:26:27 [tomcat-shutdown] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Graceful shutdown complete
+2025-05-30 01:26:27 [Thread-91] INFO  [o.a.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:26:27 [Thread-91] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 01:26:27 [Thread-91] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-24 - Shutdown initiated...
+2025-05-30 01:26:27 [Thread-91] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-24 - Shutdown completed.
+2025-05-30 01:26:27 [restartedMain] INFO  [com.aditya.VotezyApplication] - Starting VotezyApplication using Java 21.0.4 with PID 12660 (D:\Code-Practice\Spring-STS\votezy\target\classes started by Aditya-Mehta in D:\Code-Practice\Spring-STS\votezy)
+2025-05-30 01:26:27 [restartedMain] INFO  [com.aditya.VotezyApplication] - No active profile set, falling back to 1 default profile: "default"
+2025-05-30 01:26:27 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-30 01:26:27 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 9 ms. Found 4 JPA repository interfaces.
+2025-05-30 01:26:27 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2025-05-30 01:26:27 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:26:27 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-05-30 01:26:27 [restartedMain] INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-30 01:26:27 [restartedMain] INFO  [o.a.c.c.C.[Tomcat-4].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2025-05-30 01:26:27 [restartedMain] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 244 ms
+2025-05-30 01:26:27 [restartedMain] INFO  [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-30 01:26:27 [restartedMain] INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2025-05-30 01:26:27 [restartedMain] INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-30 01:26:27 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-25 - Starting...
+2025-05-30 01:26:27 [restartedMain] INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-25 - Added connection com.mysql.cj.jdbc.ConnectionImpl@537174d8
+2025-05-30 01:26:27 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-25 - Start completed.
+2025-05-30 01:26:27 [restartedMain] WARN  [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-30 01:26:27 [restartedMain] INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-25)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-30 01:26:27 [restartedMain] INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-30 01:26:27 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 01:26:27 [restartedMain] WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-30 01:26:27 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - 7 mappings in 'requestMappingHandlerMapping'
+2025-05-30 01:26:27 [restartedMain] DEBUG [o.s.w.s.h.SimpleUrlHandlerMapping] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-05-30 01:26:27 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerAdapter] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-05-30 01:26:27 [restartedMain] DEBUG [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-05-30 01:26:27 [restartedMain] INFO  [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2025-05-30 01:26:27 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:26:27 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path '/'
+2025-05-30 01:26:27 [restartedMain] INFO  [com.aditya.VotezyApplication] - Started VotezyApplication in 0.628 seconds (process running for 6233.4)
+2025-05-30 01:26:27 [restartedMain] INFO  [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2025-05-30 01:27:57 [File Watcher] INFO  [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-30 01:27:57 [Thread-95] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-30 01:27:57 [tomcat-shutdown] INFO  [o.a.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:27:57 [tomcat-shutdown] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Graceful shutdown complete
+2025-05-30 01:27:57 [Thread-95] INFO  [o.a.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:27:57 [Thread-95] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 01:27:57 [Thread-95] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-25 - Shutdown initiated...
+2025-05-30 01:27:57 [Thread-95] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-25 - Shutdown completed.
+2025-05-30 01:27:58 [restartedMain] INFO  [com.aditya.VotezyApplication] - Starting VotezyApplication using Java 21.0.4 with PID 12660 (D:\Code-Practice\Spring-STS\votezy\target\classes started by Aditya-Mehta in D:\Code-Practice\Spring-STS\votezy)
+2025-05-30 01:27:58 [restartedMain] INFO  [com.aditya.VotezyApplication] - No active profile set, falling back to 1 default profile: "default"
+2025-05-30 01:27:58 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-30 01:27:58 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 9 ms. Found 4 JPA repository interfaces.
+2025-05-30 01:27:58 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2025-05-30 01:27:58 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:27:58 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-05-30 01:27:58 [restartedMain] INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-30 01:27:58 [restartedMain] INFO  [o.a.c.c.C.[Tomcat-4].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2025-05-30 01:27:58 [restartedMain] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 229 ms
+2025-05-30 01:27:58 [restartedMain] INFO  [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-30 01:27:58 [restartedMain] INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2025-05-30 01:27:58 [restartedMain] INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-30 01:27:58 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-26 - Starting...
+2025-05-30 01:27:58 [restartedMain] INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-26 - Added connection com.mysql.cj.jdbc.ConnectionImpl@59061fab
+2025-05-30 01:27:58 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-26 - Start completed.
+2025-05-30 01:27:58 [restartedMain] WARN  [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-30 01:27:58 [restartedMain] INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-26)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-30 01:27:58 [restartedMain] INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-30 01:27:58 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 01:27:58 [restartedMain] WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-30 01:27:58 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - 7 mappings in 'requestMappingHandlerMapping'
+2025-05-30 01:27:58 [restartedMain] DEBUG [o.s.w.s.h.SimpleUrlHandlerMapping] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-05-30 01:27:58 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerAdapter] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-05-30 01:27:58 [restartedMain] DEBUG [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-05-30 01:27:58 [restartedMain] INFO  [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2025-05-30 01:27:58 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:27:58 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path '/'
+2025-05-30 01:27:58 [restartedMain] INFO  [com.aditya.VotezyApplication] - Started VotezyApplication in 0.594 seconds (process running for 6324.079)
+2025-05-30 01:27:58 [restartedMain] INFO  [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2025-05-30 01:29:06 [File Watcher] INFO  [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-30 01:29:06 [Thread-99] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-30 01:29:06 [tomcat-shutdown] INFO  [o.a.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:29:06 [tomcat-shutdown] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Graceful shutdown complete
+2025-05-30 01:29:06 [Thread-99] INFO  [o.a.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:29:06 [Thread-99] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 01:29:06 [Thread-99] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-26 - Shutdown initiated...
+2025-05-30 01:29:06 [Thread-99] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-26 - Shutdown completed.
+2025-05-30 01:29:06 [restartedMain] INFO  [com.aditya.VotezyApplication] - Starting VotezyApplication using Java 21.0.4 with PID 12660 (D:\Code-Practice\Spring-STS\votezy\target\classes started by Aditya-Mehta in D:\Code-Practice\Spring-STS\votezy)
+2025-05-30 01:29:06 [restartedMain] INFO  [com.aditya.VotezyApplication] - No active profile set, falling back to 1 default profile: "default"
+2025-05-30 01:29:06 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-30 01:29:06 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 20 ms. Found 4 JPA repository interfaces.
+2025-05-30 01:29:06 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2025-05-30 01:29:06 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:29:06 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-05-30 01:29:06 [restartedMain] INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-30 01:29:06 [restartedMain] INFO  [o.a.c.c.C.[Tomcat-4].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2025-05-30 01:29:06 [restartedMain] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 476 ms
+2025-05-30 01:29:06 [restartedMain] INFO  [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-30 01:29:06 [restartedMain] INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2025-05-30 01:29:06 [restartedMain] INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-30 01:29:06 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-27 - Starting...
+2025-05-30 01:29:06 [restartedMain] INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-27 - Added connection com.mysql.cj.jdbc.ConnectionImpl@743f2b04
+2025-05-30 01:29:06 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-27 - Start completed.
+2025-05-30 01:29:06 [restartedMain] WARN  [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-30 01:29:06 [restartedMain] INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-27)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-30 01:29:06 [restartedMain] INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-30 01:29:07 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 01:29:07 [restartedMain] WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-30 01:29:07 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - 7 mappings in 'requestMappingHandlerMapping'
+2025-05-30 01:29:07 [restartedMain] DEBUG [o.s.w.s.h.SimpleUrlHandlerMapping] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-05-30 01:29:07 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerAdapter] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-05-30 01:29:07 [restartedMain] DEBUG [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-05-30 01:29:07 [restartedMain] INFO  [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2025-05-30 01:29:07 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:29:07 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path '/'
+2025-05-30 01:29:07 [restartedMain] INFO  [com.aditya.VotezyApplication] - Started VotezyApplication in 0.899 seconds (process running for 6392.703)
+2025-05-30 01:29:07 [restartedMain] INFO  [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2025-05-30 01:29:13 [http-nio-8080-exec-2] INFO  [o.a.c.c.C.[Tomcat-4].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-30 01:29:13 [http-nio-8080-exec-2] INFO  [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2025-05-30 01:29:13 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected StandardServletMultipartResolver
+2025-05-30 01:29:13 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected AcceptHeaderLocaleResolver
+2025-05-30 01:29:13 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected FixedThemeResolver
+2025-05-30 01:29:13 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@333fc1d5
+2025-05-30 01:29:13 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected org.springframework.web.servlet.support.SessionFlashMapManager@6e5296b4
+2025-05-30 01:29:13 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-05-30 01:29:13 [http-nio-8080-exec-2] INFO  [o.s.web.servlet.DispatcherServlet] - Completed initialization in 2 ms
+2025-05-30 01:29:13 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - DELETE "/api/voters/delete/2", parameters={}
+2025-05-30 01:29:13 [http-nio-8080-exec-2] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - Mapped to com.aditya.controller.VoterController#deleteVoter(Long)
+2025-05-30 01:29:13 [http-nio-8080-exec-2] DEBUG [org.hibernate.SQL] - select v1_0.id,v1_0.email,v1_0.has_voted,v1_0.name,v2_0.id,c1_0.id,c1_0.email,c1_0.name,c1_0.party_name,c1_0.voter_img,c1_0.vote_count,v1_0.voter_img from voter v1_0 left join vote v2_0 on v1_0.id=v2_0.candidate_id left join candidate c1_0 on c1_0.id=v2_0.voter_id where v1_0.id=?
+2025-05-30 01:29:13 [http-nio-8080-exec-2] INFO  [com.aditya.service.VoterService] - voter id 2 delete successfully
+2025-05-30 01:29:13 [http-nio-8080-exec-2] DEBUG [org.hibernate.SQL] - delete from voter where id=?
+2025-05-30 01:29:13 [http-nio-8080-exec-2] DEBUG [o.s.w.s.m.m.a.HttpEntityMethodProcessor] - Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2025-05-30 01:29:13 [http-nio-8080-exec-2] DEBUG [o.s.w.s.m.m.a.HttpEntityMethodProcessor] - Writing ["Voter with ID 2 was deleted successfully."]
+2025-05-30 01:29:13 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - Completed 200 OK
+2025-05-30 01:29:25 [http-nio-8080-exec-3] DEBUG [o.s.web.servlet.DispatcherServlet] - DELETE "/api/voters/delete/3", parameters={}
+2025-05-30 01:29:25 [http-nio-8080-exec-3] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - Mapped to com.aditya.controller.VoterController#deleteVoter(Long)
+2025-05-30 01:29:25 [http-nio-8080-exec-3] DEBUG [org.hibernate.SQL] - select v1_0.id,v1_0.email,v1_0.has_voted,v1_0.name,v2_0.id,c1_0.id,c1_0.email,c1_0.name,c1_0.party_name,c1_0.voter_img,c1_0.vote_count,v1_0.voter_img from voter v1_0 left join vote v2_0 on v1_0.id=v2_0.candidate_id left join candidate c1_0 on c1_0.id=v2_0.voter_id where v1_0.id=?
+2025-05-30 01:29:26 [http-nio-8080-exec-3] DEBUG [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] - Using @ExceptionHandler com.aditya.exception.GlobalExceptionHandler#handleResourceNotFoundException(ResourceNotFoundException)
+2025-05-30 01:29:26 [http-nio-8080-exec-3] WARN  [c.a.exception.GlobalExceptionHandler] - Resource not found: Voter with ID 3 not found for delete.
+2025-05-30 01:29:26 [http-nio-8080-exec-3] DEBUG [o.s.w.s.m.m.a.HttpEntityMethodProcessor] - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-05-30 01:29:26 [http-nio-8080-exec-3] DEBUG [o.s.w.s.m.m.a.HttpEntityMethodProcessor] - Writing [ErrorResponse(statusCode=404, message=Voter with ID 3 not found for delete.)]
+2025-05-30 01:29:26 [http-nio-8080-exec-3] WARN  [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] - Resolved [com.aditya.exception.ResourceNotFoundException: Voter with ID 3 not found for delete.]
+2025-05-30 01:29:26 [http-nio-8080-exec-3] DEBUG [o.s.web.servlet.DispatcherServlet] - Completed 404 NOT_FOUND
+2025-05-30 01:54:22 [File Watcher] INFO  [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-30 01:54:22 [Thread-103] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-30 01:54:22 [tomcat-shutdown] INFO  [o.a.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:54:22 [tomcat-shutdown] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Graceful shutdown complete
+2025-05-30 01:54:22 [Thread-103] INFO  [o.a.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:54:22 [Thread-103] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 01:54:22 [Thread-103] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-27 - Shutdown initiated...
+2025-05-30 01:54:22 [Thread-103] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-27 - Shutdown completed.
+2025-05-30 01:54:23 [restartedMain] INFO  [com.aditya.VotezyApplication] - Starting VotezyApplication using Java 21.0.4 with PID 12660 (D:\Code-Practice\Spring-STS\votezy\target\classes started by Aditya-Mehta in D:\Code-Practice\Spring-STS\votezy)
+2025-05-30 01:54:23 [restartedMain] INFO  [com.aditya.VotezyApplication] - No active profile set, falling back to 1 default profile: "default"
+2025-05-30 01:54:23 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-30 01:54:23 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 10 ms. Found 4 JPA repository interfaces.
+2025-05-30 01:54:23 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2025-05-30 01:54:23 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:54:23 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-05-30 01:54:23 [restartedMain] INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-30 01:54:23 [restartedMain] INFO  [o.a.c.c.C.[Tomcat-4].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2025-05-30 01:54:23 [restartedMain] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 278 ms
+2025-05-30 01:54:23 [restartedMain] INFO  [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-30 01:54:23 [restartedMain] INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2025-05-30 01:54:23 [restartedMain] INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-30 01:54:23 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-28 - Starting...
+2025-05-30 01:54:23 [restartedMain] INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-28 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c28fbf3
+2025-05-30 01:54:23 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-28 - Start completed.
+2025-05-30 01:54:23 [restartedMain] WARN  [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-30 01:54:23 [restartedMain] INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-28)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-30 01:54:23 [restartedMain] INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-30 01:54:23 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 01:54:23 [restartedMain] WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-30 01:54:23 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - 7 mappings in 'requestMappingHandlerMapping'
+2025-05-30 01:54:23 [restartedMain] DEBUG [o.s.w.s.h.SimpleUrlHandlerMapping] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-05-30 01:54:23 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerAdapter] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-05-30 01:54:23 [restartedMain] DEBUG [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-05-30 01:54:23 [restartedMain] INFO  [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2025-05-30 01:54:23 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:54:23 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path '/'
+2025-05-30 01:54:23 [restartedMain] INFO  [com.aditya.VotezyApplication] - Started VotezyApplication in 0.701 seconds (process running for 7909.225)
+2025-05-30 01:54:23 [restartedMain] INFO  [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2025-05-30 01:58:54 [File Watcher] INFO  [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-30 01:58:54 [Thread-107] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-30 01:58:54 [tomcat-shutdown] INFO  [o.a.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:58:54 [tomcat-shutdown] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Graceful shutdown complete
+2025-05-30 01:58:54 [Thread-107] INFO  [o.a.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:58:54 [Thread-107] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 01:58:54 [Thread-107] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-28 - Shutdown initiated...
+2025-05-30 01:58:55 [Thread-107] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-28 - Shutdown completed.
+2025-05-30 01:58:55 [restartedMain] INFO  [com.aditya.VotezyApplication] - Starting VotezyApplication using Java 21.0.4 with PID 12660 (D:\Code-Practice\Spring-STS\votezy\target\classes started by Aditya-Mehta in D:\Code-Practice\Spring-STS\votezy)
+2025-05-30 01:58:55 [restartedMain] INFO  [com.aditya.VotezyApplication] - No active profile set, falling back to 1 default profile: "default"
+2025-05-30 01:58:55 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-30 01:58:55 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 9 ms. Found 4 JPA repository interfaces.
+2025-05-30 01:58:55 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2025-05-30 01:58:55 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:58:55 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-05-30 01:58:55 [restartedMain] INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-30 01:58:55 [restartedMain] INFO  [o.a.c.c.C.[Tomcat-4].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2025-05-30 01:58:55 [restartedMain] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 267 ms
+2025-05-30 01:58:55 [restartedMain] INFO  [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-30 01:58:55 [restartedMain] INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2025-05-30 01:58:55 [restartedMain] INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-30 01:58:55 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-29 - Starting...
+2025-05-30 01:58:55 [restartedMain] INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-29 - Added connection com.mysql.cj.jdbc.ConnectionImpl@566d379c
+2025-05-30 01:58:55 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-29 - Start completed.
+2025-05-30 01:58:55 [restartedMain] WARN  [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-30 01:58:55 [restartedMain] INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-29)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-30 01:58:55 [restartedMain] INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-30 01:58:55 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 01:58:55 [restartedMain] WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-30 01:58:55 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - 8 mappings in 'requestMappingHandlerMapping'
+2025-05-30 01:58:55 [restartedMain] DEBUG [o.s.w.s.h.SimpleUrlHandlerMapping] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-05-30 01:58:55 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerAdapter] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-05-30 01:58:55 [restartedMain] DEBUG [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-05-30 01:58:55 [restartedMain] INFO  [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2025-05-30 01:58:55 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:58:55 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path '/'
+2025-05-30 01:58:55 [restartedMain] INFO  [com.aditya.VotezyApplication] - Started VotezyApplication in 0.665 seconds (process running for 8181.207)
+2025-05-30 01:58:55 [restartedMain] INFO  [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2025-05-30 01:59:20 [File Watcher] INFO  [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-30 01:59:20 [Thread-111] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-30 01:59:20 [tomcat-shutdown] INFO  [o.a.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:59:20 [tomcat-shutdown] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Graceful shutdown complete
+2025-05-30 01:59:20 [Thread-111] INFO  [o.a.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:59:20 [Thread-111] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 01:59:20 [Thread-111] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-29 - Shutdown initiated...
+2025-05-30 01:59:20 [Thread-111] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-29 - Shutdown completed.
+2025-05-30 01:59:20 [restartedMain] INFO  [com.aditya.VotezyApplication] - Starting VotezyApplication using Java 21.0.4 with PID 12660 (D:\Code-Practice\Spring-STS\votezy\target\classes started by Aditya-Mehta in D:\Code-Practice\Spring-STS\votezy)
+2025-05-30 01:59:20 [restartedMain] INFO  [com.aditya.VotezyApplication] - No active profile set, falling back to 1 default profile: "default"
+2025-05-30 01:59:20 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-30 01:59:20 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 12 ms. Found 4 JPA repository interfaces.
+2025-05-30 01:59:20 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2025-05-30 01:59:20 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:59:20 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-05-30 01:59:20 [restartedMain] INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-30 01:59:20 [restartedMain] INFO  [o.a.c.c.C.[Tomcat-4].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2025-05-30 01:59:20 [restartedMain] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 219 ms
+2025-05-30 01:59:20 [restartedMain] INFO  [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-30 01:59:20 [restartedMain] INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2025-05-30 01:59:20 [restartedMain] INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-30 01:59:20 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-30 - Starting...
+2025-05-30 01:59:20 [restartedMain] INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-30 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4f3beb08
+2025-05-30 01:59:20 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-30 - Start completed.
+2025-05-30 01:59:20 [restartedMain] WARN  [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-30 01:59:20 [restartedMain] INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-30)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-30 01:59:20 [restartedMain] INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-30 01:59:20 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 01:59:21 [restartedMain] WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-30 01:59:21 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - 8 mappings in 'requestMappingHandlerMapping'
+2025-05-30 01:59:21 [restartedMain] DEBUG [o.s.w.s.h.SimpleUrlHandlerMapping] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-05-30 01:59:21 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerAdapter] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-05-30 01:59:21 [restartedMain] DEBUG [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-05-30 01:59:21 [restartedMain] INFO  [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2025-05-30 01:59:21 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-30 01:59:21 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path '/'
+2025-05-30 01:59:21 [restartedMain] INFO  [com.aditya.VotezyApplication] - Started VotezyApplication in 0.59 seconds (process running for 8206.686)
+2025-05-30 01:59:21 [restartedMain] INFO  [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2025-05-30 02:00:14 [File Watcher] INFO  [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-05-30 02:00:14 [Thread-115] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-30 02:00:14 [tomcat-shutdown] INFO  [o.a.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-30 02:00:14 [tomcat-shutdown] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Graceful shutdown complete
+2025-05-30 02:00:14 [Thread-115] INFO  [o.a.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-30 02:00:14 [Thread-115] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 02:00:14 [Thread-115] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-30 - Shutdown initiated...
+2025-05-30 02:00:14 [Thread-115] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-30 - Shutdown completed.
+2025-05-30 02:00:14 [restartedMain] INFO  [com.aditya.VotezyApplication] - Starting VotezyApplication using Java 21.0.4 with PID 12660 (D:\Code-Practice\Spring-STS\votezy\target\classes started by Aditya-Mehta in D:\Code-Practice\Spring-STS\votezy)
+2025-05-30 02:00:14 [restartedMain] INFO  [com.aditya.VotezyApplication] - No active profile set, falling back to 1 default profile: "default"
+2025-05-30 02:00:14 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-30 02:00:14 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 8 ms. Found 4 JPA repository interfaces.
+2025-05-30 02:00:14 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2025-05-30 02:00:14 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-30 02:00:14 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-05-30 02:00:14 [restartedMain] INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-30 02:00:14 [restartedMain] INFO  [o.a.c.c.C.[Tomcat-4].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2025-05-30 02:00:14 [restartedMain] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 228 ms
+2025-05-30 02:00:14 [restartedMain] INFO  [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-30 02:00:14 [restartedMain] INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2025-05-30 02:00:14 [restartedMain] INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-30 02:00:14 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-31 - Starting...
+2025-05-30 02:00:14 [restartedMain] INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-31 - Added connection com.mysql.cj.jdbc.ConnectionImpl@108e148d
+2025-05-30 02:00:14 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-31 - Start completed.
+2025-05-30 02:00:14 [restartedMain] WARN  [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-30 02:00:14 [restartedMain] INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-31)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-30 02:00:14 [restartedMain] INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-30 02:00:14 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 02:00:14 [restartedMain] WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-30 02:00:15 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - 8 mappings in 'requestMappingHandlerMapping'
+2025-05-30 02:00:15 [restartedMain] DEBUG [o.s.w.s.h.SimpleUrlHandlerMapping] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-05-30 02:00:15 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerAdapter] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-05-30 02:00:15 [restartedMain] DEBUG [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-05-30 02:00:15 [restartedMain] INFO  [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2025-05-30 02:00:15 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-30 02:00:15 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path '/'
+2025-05-30 02:00:15 [restartedMain] INFO  [com.aditya.VotezyApplication] - Started VotezyApplication in 0.585 seconds (process running for 8260.601)
+2025-05-30 02:00:15 [restartedMain] INFO  [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2025-05-30 02:06:09 [http-nio-8080-exec-2] INFO  [o.a.c.c.C.[Tomcat-4].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-30 02:06:09 [http-nio-8080-exec-2] INFO  [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2025-05-30 02:06:09 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected StandardServletMultipartResolver
+2025-05-30 02:06:09 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected AcceptHeaderLocaleResolver
+2025-05-30 02:06:09 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected FixedThemeResolver
+2025-05-30 02:06:09 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@612c90f6
+2025-05-30 02:06:09 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected org.springframework.web.servlet.support.SessionFlashMapManager@4bdc18e6
+2025-05-30 02:06:09 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-05-30 02:06:09 [http-nio-8080-exec-2] INFO  [o.s.web.servlet.DispatcherServlet] - Completed initialization in 1 ms
+2025-05-30 02:06:09 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - POST "/api/voters/1/upload-image", parameters={multipart}
+2025-05-30 02:06:09 [http-nio-8080-exec-2] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - Mapped to com.aditya.controller.VoterController#uploadVoterImage(Long, MultipartFile)
+2025-05-30 02:06:09 [http-nio-8080-exec-2] DEBUG [org.hibernate.SQL] - select v1_0.id,v1_0.email,v1_0.has_voted,v1_0.name,v2_0.id,c1_0.id,c1_0.email,c1_0.name,c1_0.party_name,c1_0.voter_img,c1_0.vote_count,v1_0.voter_img from voter v1_0 left join vote v2_0 on v1_0.id=v2_0.candidate_id left join candidate c1_0 on c1_0.id=v2_0.voter_id where v1_0.id=?
+2025-05-30 02:06:09 [http-nio-8080-exec-2] DEBUG [org.hibernate.SQL] - update voter set email=?,has_voted=?,name=?,voter_img=? where id=?
+2025-05-30 02:06:09 [http-nio-8080-exec-2] DEBUG [o.s.w.s.m.m.a.HttpEntityMethodProcessor] - Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2025-05-30 02:06:09 [http-nio-8080-exec-2] DEBUG [o.s.w.s.m.m.a.HttpEntityMethodProcessor] - Writing ["Image uploaded successfully."]
+2025-05-30 02:06:09 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - Completed 200 OK
+2025-05-30 02:08:17 [File Watcher] INFO  [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-30 02:08:17 [Thread-119] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-30 02:08:17 [tomcat-shutdown] INFO  [o.a.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-30 02:08:17 [tomcat-shutdown] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Graceful shutdown complete
+2025-05-30 02:08:17 [Thread-119] INFO  [o.a.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-30 02:08:17 [Thread-119] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 02:08:17 [Thread-119] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-31 - Shutdown initiated...
+2025-05-30 02:08:17 [Thread-119] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-31 - Shutdown completed.
+2025-05-30 02:08:18 [restartedMain] INFO  [com.aditya.VotezyApplication] - Starting VotezyApplication using Java 21.0.4 with PID 12660 (D:\Code-Practice\Spring-STS\votezy\target\classes started by Aditya-Mehta in D:\Code-Practice\Spring-STS\votezy)
+2025-05-30 02:08:18 [restartedMain] INFO  [com.aditya.VotezyApplication] - No active profile set, falling back to 1 default profile: "default"
+2025-05-30 02:08:18 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-30 02:08:18 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 9 ms. Found 4 JPA repository interfaces.
+2025-05-30 02:08:18 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2025-05-30 02:08:18 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-30 02:08:18 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-05-30 02:08:18 [restartedMain] INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-30 02:08:18 [restartedMain] INFO  [o.a.c.c.C.[Tomcat-4].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2025-05-30 02:08:18 [restartedMain] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 286 ms
+2025-05-30 02:08:18 [restartedMain] INFO  [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-30 02:08:18 [restartedMain] INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2025-05-30 02:08:18 [restartedMain] INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-30 02:08:18 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-32 - Starting...
+2025-05-30 02:08:18 [restartedMain] INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-32 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3af774db
+2025-05-30 02:08:18 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-32 - Start completed.
+2025-05-30 02:08:18 [restartedMain] WARN  [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-30 02:08:18 [restartedMain] INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-32)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-30 02:08:18 [restartedMain] INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-30 02:08:18 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 02:08:18 [restartedMain] WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-30 02:08:18 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - 8 mappings in 'requestMappingHandlerMapping'
+2025-05-30 02:08:18 [restartedMain] DEBUG [o.s.w.s.h.SimpleUrlHandlerMapping] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-05-30 02:08:18 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerAdapter] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-05-30 02:08:18 [restartedMain] DEBUG [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-05-30 02:08:18 [restartedMain] INFO  [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2025-05-30 02:08:18 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-30 02:08:18 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path '/'
+2025-05-30 02:08:18 [restartedMain] INFO  [com.aditya.VotezyApplication] - Started VotezyApplication in 0.738 seconds (process running for 8744.232)
+2025-05-30 02:08:18 [restartedMain] INFO  [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2025-05-30 02:08:24 [http-nio-8080-exec-2] INFO  [o.a.c.c.C.[Tomcat-4].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-30 02:08:24 [http-nio-8080-exec-2] INFO  [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2025-05-30 02:08:24 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected StandardServletMultipartResolver
+2025-05-30 02:08:24 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected AcceptHeaderLocaleResolver
+2025-05-30 02:08:24 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected FixedThemeResolver
+2025-05-30 02:08:24 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4942173a
+2025-05-30 02:08:24 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected org.springframework.web.servlet.support.SessionFlashMapManager@7563e7c3
+2025-05-30 02:08:24 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-05-30 02:08:24 [http-nio-8080-exec-2] INFO  [o.s.web.servlet.DispatcherServlet] - Completed initialization in 4 ms
+2025-05-30 02:08:24 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - GET "/api/voters/1", parameters={}
+2025-05-30 02:08:24 [http-nio-8080-exec-2] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - Mapped to com.aditya.controller.VoterController#getVoterById(Long)
+2025-05-30 02:08:24 [http-nio-8080-exec-2] DEBUG [org.hibernate.SQL] - select v1_0.id,v1_0.email,v1_0.has_voted,v1_0.name,v2_0.id,c1_0.id,c1_0.email,c1_0.name,c1_0.party_name,c1_0.voter_img,c1_0.vote_count,v1_0.voter_img from voter v1_0 left join vote v2_0 on v1_0.id=v2_0.candidate_id left join candidate c1_0 on c1_0.id=v2_0.voter_id where v1_0.id=?
+2025-05-30 02:08:24 [http-nio-8080-exec-2] INFO  [com.aditya.service.VoterService] - Voter ID 1 fetched successfully.
+2025-05-30 02:08:24 [http-nio-8080-exec-2] DEBUG [o.s.w.s.m.m.a.HttpEntityMethodProcessor] - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-05-30 02:08:24 [http-nio-8080-exec-2] DEBUG [o.s.w.s.m.m.a.HttpEntityMethodProcessor] - Writing [Voter(id=1, name=aditya mehta, email=adityamehta242@gmail.com, has_voted=false, voterImg=[-119, 80,  (truncated)...]
+2025-05-30 02:08:24 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - Completed 200 OK
+2025-05-30 02:09:06 [File Watcher] INFO  [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-30 02:09:06 [Thread-123] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-30 02:09:06 [tomcat-shutdown] INFO  [o.a.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-30 02:09:06 [tomcat-shutdown] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Graceful shutdown complete
+2025-05-30 02:09:06 [Thread-123] INFO  [o.a.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-30 02:09:06 [Thread-123] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 02:09:06 [Thread-123] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-32 - Shutdown initiated...
+2025-05-30 02:09:06 [Thread-123] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-32 - Shutdown completed.
+2025-05-30 02:09:06 [restartedMain] INFO  [com.aditya.VotezyApplication] - Starting VotezyApplication using Java 21.0.4 with PID 12660 (D:\Code-Practice\Spring-STS\votezy\target\classes started by Aditya-Mehta in D:\Code-Practice\Spring-STS\votezy)
+2025-05-30 02:09:06 [restartedMain] INFO  [com.aditya.VotezyApplication] - No active profile set, falling back to 1 default profile: "default"
+2025-05-30 02:09:06 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-30 02:09:06 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 11 ms. Found 4 JPA repository interfaces.
+2025-05-30 02:09:06 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2025-05-30 02:09:06 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-30 02:09:06 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-05-30 02:09:06 [restartedMain] INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-30 02:09:06 [restartedMain] INFO  [o.a.c.c.C.[Tomcat-4].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2025-05-30 02:09:06 [restartedMain] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 490 ms
+2025-05-30 02:09:06 [restartedMain] INFO  [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-30 02:09:06 [restartedMain] INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2025-05-30 02:09:06 [restartedMain] INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-30 02:09:06 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-33 - Starting...
+2025-05-30 02:09:06 [restartedMain] INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-33 - Added connection com.mysql.cj.jdbc.ConnectionImpl@31162c8f
+2025-05-30 02:09:06 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-33 - Start completed.
+2025-05-30 02:09:06 [restartedMain] WARN  [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-30 02:09:06 [restartedMain] INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-33)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-30 02:09:06 [restartedMain] INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-30 02:09:06 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 02:09:06 [restartedMain] WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-30 02:09:06 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - 8 mappings in 'requestMappingHandlerMapping'
+2025-05-30 02:09:06 [restartedMain] DEBUG [o.s.w.s.h.SimpleUrlHandlerMapping] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-05-30 02:09:06 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerAdapter] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-05-30 02:09:06 [restartedMain] DEBUG [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-05-30 02:09:07 [restartedMain] INFO  [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2025-05-30 02:09:07 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-30 02:09:07 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path '/'
+2025-05-30 02:09:07 [restartedMain] INFO  [com.aditya.VotezyApplication] - Started VotezyApplication in 0.956 seconds (process running for 8792.522)
+2025-05-30 02:09:07 [restartedMain] INFO  [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2025-05-30 02:16:51 [File Watcher] INFO  [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-30 02:16:51 [Thread-127] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-30 02:16:51 [tomcat-shutdown] INFO  [o.a.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-30 02:16:51 [tomcat-shutdown] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Graceful shutdown complete
+2025-05-30 02:16:51 [Thread-127] INFO  [o.a.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-30 02:16:51 [Thread-127] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 02:16:51 [Thread-127] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-33 - Shutdown initiated...
+2025-05-30 02:16:51 [Thread-127] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-33 - Shutdown completed.
+2025-05-30 02:16:51 [restartedMain] INFO  [com.aditya.VotezyApplication] - Starting VotezyApplication using Java 21.0.4 with PID 12660 (D:\Code-Practice\Spring-STS\votezy\target\classes started by Aditya-Mehta in D:\Code-Practice\Spring-STS\votezy)
+2025-05-30 02:16:51 [restartedMain] INFO  [com.aditya.VotezyApplication] - No active profile set, falling back to 1 default profile: "default"
+2025-05-30 02:16:51 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-30 02:16:52 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 10 ms. Found 4 JPA repository interfaces.
+2025-05-30 02:16:52 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2025-05-30 02:16:52 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-30 02:16:52 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-05-30 02:16:52 [restartedMain] INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-30 02:16:52 [restartedMain] INFO  [o.a.c.c.C.[Tomcat-4].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2025-05-30 02:16:52 [restartedMain] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 270 ms
+2025-05-30 02:16:52 [restartedMain] INFO  [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-30 02:16:52 [restartedMain] INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2025-05-30 02:16:52 [restartedMain] INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-30 02:16:52 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-34 - Starting...
+2025-05-30 02:16:52 [restartedMain] INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-34 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65c38a2f
+2025-05-30 02:16:52 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-34 - Start completed.
+2025-05-30 02:16:52 [restartedMain] WARN  [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-30 02:16:52 [restartedMain] INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-34)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-30 02:16:52 [restartedMain] INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-30 02:16:52 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 02:16:52 [restartedMain] WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-30 02:16:52 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - 8 mappings in 'requestMappingHandlerMapping'
+2025-05-30 02:16:52 [restartedMain] DEBUG [o.s.w.s.h.SimpleUrlHandlerMapping] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-05-30 02:16:52 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerAdapter] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-05-30 02:16:52 [restartedMain] DEBUG [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-05-30 02:16:52 [restartedMain] INFO  [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2025-05-30 02:16:52 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-30 02:16:52 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path '/'
+2025-05-30 02:16:52 [restartedMain] INFO  [com.aditya.VotezyApplication] - Started VotezyApplication in 0.826 seconds (process running for 9258.112)
+2025-05-30 02:16:52 [restartedMain] INFO  [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2025-05-30 02:24:53 [RMI TCP Connection(148)-127.0.0.1] INFO  [o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] - Application shutdown requested.
+2025-05-30 02:24:53 [RMI TCP Connection(148)-127.0.0.1] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-30 02:24:53 [tomcat-shutdown] INFO  [o.a.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-30 02:24:53 [tomcat-shutdown] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Graceful shutdown complete
+2025-05-30 02:24:53 [RMI TCP Connection(148)-127.0.0.1] INFO  [o.a.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-30 02:24:53 [RMI TCP Connection(148)-127.0.0.1] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 02:24:53 [RMI TCP Connection(148)-127.0.0.1] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-34 - Shutdown initiated...
+2025-05-30 02:24:53 [RMI TCP Connection(148)-127.0.0.1] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-34 - Shutdown completed.

@@ -1,0 +1,446 @@
+2025-05-28 22:49:44 [background-preinit] INFO  [o.h.validator.internal.util.Version] - HV000001: Hibernate Validator 8.0.2.Final
+2025-05-28 22:49:45 [restartedMain] INFO  [com.aditya.VotezyApplication] - Starting VotezyApplication using Java 21.0.4 with PID 4464 (D:\Code-Practice\Spring-STS\votezy\target\classes started by Aditya-Mehta in D:\Code-Practice\Spring-STS\votezy)
+2025-05-28 22:49:45 [restartedMain] INFO  [com.aditya.VotezyApplication] - No active profile set, falling back to 1 default profile: "default"
+2025-05-28 22:49:45 [restartedMain] INFO  [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-28 22:49:45 [restartedMain] INFO  [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-28 22:49:46 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-28 22:49:46 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 69 ms. Found 4 JPA repository interfaces.
+2025-05-28 22:49:47 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2025-05-28 22:49:47 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-28 22:49:47 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-05-28 22:49:47 [restartedMain] INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-28 22:49:47 [restartedMain] INFO  [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2025-05-28 22:49:47 [restartedMain] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 2504 ms
+2025-05-28 22:49:47 [restartedMain] INFO  [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-28 22:49:48 [restartedMain] INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-28 22:49:48 [restartedMain] INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2025-05-28 22:49:48 [restartedMain] INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-28 22:49:48 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2025-05-28 22:49:49 [restartedMain] INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@36aad9f2
+2025-05-28 22:49:49 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2025-05-28 22:49:49 [restartedMain] WARN  [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-28 22:49:49 [restartedMain] INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-28 22:49:50 [restartedMain] INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-28 22:49:50 [restartedMain] DEBUG [org.hibernate.SQL] - alter table candidate add column voter_img MEDIUMBLOB not null
+2025-05-28 22:49:51 [restartedMain] DEBUG [org.hibernate.SQL] - alter table voter add column voter_img MEDIUMBLOB
+2025-05-28 22:49:51 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-28 22:49:51 [restartedMain] WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-28 22:49:52 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - 3 mappings in 'requestMappingHandlerMapping'
+2025-05-28 22:49:52 [restartedMain] DEBUG [o.s.w.s.h.SimpleUrlHandlerMapping] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-05-28 22:49:52 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerAdapter] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-05-28 22:49:52 [restartedMain] DEBUG [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-05-28 22:49:52 [restartedMain] INFO  [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2025-05-28 22:49:52 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-28 22:49:52 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path '/'
+2025-05-28 22:49:52 [restartedMain] INFO  [com.aditya.VotezyApplication] - Started VotezyApplication in 8.383 seconds (process running for 9.613)
+2025-05-28 22:55:36 [http-nio-8080-exec-2] INFO  [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-28 22:55:36 [http-nio-8080-exec-2] INFO  [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2025-05-28 22:55:36 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected StandardServletMultipartResolver
+2025-05-28 22:55:36 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected AcceptHeaderLocaleResolver
+2025-05-28 22:55:36 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected FixedThemeResolver
+2025-05-28 22:55:36 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@28a281f6
+2025-05-28 22:55:36 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected org.springframework.web.servlet.support.SessionFlashMapManager@3c525495
+2025-05-28 22:55:36 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-05-28 22:55:36 [http-nio-8080-exec-2] INFO  [o.s.web.servlet.DispatcherServlet] - Completed initialization in 17 ms
+2025-05-28 22:55:36 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - POST "/api/voters/register", parameters={multipart}
+2025-05-28 22:55:36 [http-nio-8080-exec-2] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - Mapped to com.aditya.controller.VoterController#registerVoter(Voter)
+2025-05-28 22:55:36 [http-nio-8080-exec-2] DEBUG [o.s.web.method.HandlerMethod] - Could not resolve parameter [0] in public org.springframework.http.ResponseEntity<com.aditya.entity.Voter> com.aditya.controller.VoterController.registerVoter(com.aditya.entity.Voter): Content-Type 'multipart/form-data;boundary=--------------------------332952931642782750401931;charset=UTF-8' is not supported
+2025-05-28 22:55:36 [http-nio-8080-exec-2] DEBUG [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] - Using @ExceptionHandler com.aditya.exception.GlobalExceptionHandler#handleGeneralException(Exception)
+2025-05-28 22:55:36 [http-nio-8080-exec-2] ERROR [c.a.exception.GlobalExceptionHandler] - Unexpected error occurred
+org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'multipart/form-data;boundary=--------------------------332952931642782750401931;charset=UTF-8' is not supported
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:236)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:176)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:150)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:227)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:181)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-05-28 22:55:36 [http-nio-8080-exec-2] DEBUG [o.s.w.s.m.m.a.HttpEntityMethodProcessor] - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-05-28 22:55:36 [http-nio-8080-exec-2] DEBUG [o.s.w.s.m.m.a.HttpEntityMethodProcessor] - Writing [ErrorResponse(statusCode=500, message=Content-Type 'multipart/form-data;boundary=------------------- (truncated)...]
+2025-05-28 22:55:36 [http-nio-8080-exec-2] WARN  [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'multipart/form-data;boundary=--------------------------332952931642782750401931;charset=UTF-8' is not supported]
+2025-05-28 22:55:36 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - Completed 500 INTERNAL_SERVER_ERROR
+2025-05-28 22:57:55 [http-nio-8080-exec-3] DEBUG [o.s.web.servlet.DispatcherServlet] - POST "/api/voters/register", parameters={multipart}
+2025-05-28 22:57:55 [http-nio-8080-exec-3] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - Mapped to com.aditya.controller.VoterController#registerVoter(Voter)
+2025-05-28 22:57:55 [http-nio-8080-exec-3] DEBUG [o.s.web.method.HandlerMethod] - Could not resolve parameter [0] in public org.springframework.http.ResponseEntity<com.aditya.entity.Voter> com.aditya.controller.VoterController.registerVoter(com.aditya.entity.Voter): Content-Type 'multipart/form-data;boundary=--------------------------418441184265418898893161;charset=UTF-8' is not supported
+2025-05-28 22:57:55 [http-nio-8080-exec-3] DEBUG [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] - Using @ExceptionHandler com.aditya.exception.GlobalExceptionHandler#handleGeneralException(Exception)
+2025-05-28 22:57:55 [http-nio-8080-exec-3] ERROR [c.a.exception.GlobalExceptionHandler] - Unexpected error occurred
+org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'multipart/form-data;boundary=--------------------------418441184265418898893161;charset=UTF-8' is not supported
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:236)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:176)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:150)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:227)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:181)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-05-28 22:57:55 [http-nio-8080-exec-3] DEBUG [o.s.w.s.m.m.a.HttpEntityMethodProcessor] - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-05-28 22:57:55 [http-nio-8080-exec-3] DEBUG [o.s.w.s.m.m.a.HttpEntityMethodProcessor] - Writing [ErrorResponse(statusCode=500, message=Content-Type 'multipart/form-data;boundary=------------------- (truncated)...]
+2025-05-28 22:57:55 [http-nio-8080-exec-3] WARN  [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'multipart/form-data;boundary=--------------------------418441184265418898893161;charset=UTF-8' is not supported]
+2025-05-28 22:57:55 [http-nio-8080-exec-3] DEBUG [o.s.web.servlet.DispatcherServlet] - Completed 500 INTERNAL_SERVER_ERROR
+2025-05-28 22:58:14 [http-nio-8080-exec-6] DEBUG [o.s.web.servlet.DispatcherServlet] - POST "/api/voters/register", parameters={multipart}
+2025-05-28 22:58:14 [http-nio-8080-exec-6] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - Mapped to com.aditya.controller.VoterController#registerVoter(Voter)
+2025-05-28 22:58:14 [http-nio-8080-exec-6] DEBUG [o.s.web.method.HandlerMethod] - Could not resolve parameter [0] in public org.springframework.http.ResponseEntity<com.aditya.entity.Voter> com.aditya.controller.VoterController.registerVoter(com.aditya.entity.Voter): Content-Type 'multipart/form-data;boundary=--------------------------150218741351928414610336;charset=UTF-8' is not supported
+2025-05-28 22:58:14 [http-nio-8080-exec-6] DEBUG [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] - Using @ExceptionHandler com.aditya.exception.GlobalExceptionHandler#handleGeneralException(Exception)
+2025-05-28 22:58:14 [http-nio-8080-exec-6] ERROR [c.a.exception.GlobalExceptionHandler] - Unexpected error occurred
+org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'multipart/form-data;boundary=--------------------------150218741351928414610336;charset=UTF-8' is not supported
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:236)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:176)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:150)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:227)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:181)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-05-28 22:58:14 [http-nio-8080-exec-6] DEBUG [o.s.w.s.m.m.a.HttpEntityMethodProcessor] - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-05-28 22:58:14 [http-nio-8080-exec-6] DEBUG [o.s.w.s.m.m.a.HttpEntityMethodProcessor] - Writing [ErrorResponse(statusCode=500, message=Content-Type 'multipart/form-data;boundary=------------------- (truncated)...]
+2025-05-28 22:58:14 [http-nio-8080-exec-6] WARN  [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'multipart/form-data;boundary=--------------------------150218741351928414610336;charset=UTF-8' is not supported]
+2025-05-28 22:58:14 [http-nio-8080-exec-6] DEBUG [o.s.web.servlet.DispatcherServlet] - Completed 500 INTERNAL_SERVER_ERROR
+2025-05-28 23:00:49 [http-nio-8080-exec-7] DEBUG [o.s.web.servlet.DispatcherServlet] - POST "/api/voters/register", parameters={}
+2025-05-28 23:00:49 [http-nio-8080-exec-7] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - Mapped to com.aditya.controller.VoterController#registerVoter(Voter)
+2025-05-28 23:00:49 [http-nio-8080-exec-7] DEBUG [o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor] - Read "application/json;charset=UTF-8" to [Voter(id=null, name=aditya mehta, email=null, has_voted=false, voterImg=null, vote=null)]
+2025-05-28 23:00:49 [http-nio-8080-exec-7] DEBUG [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] - Using @ExceptionHandler com.aditya.exception.GlobalExceptionHandler#handleMethodArgumentNotValidException(MethodArgumentNotValidException)
+2025-05-28 23:00:49 [http-nio-8080-exec-7] DEBUG [o.s.w.s.m.m.a.HttpEntityMethodProcessor] - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-05-28 23:00:49 [http-nio-8080-exec-7] DEBUG [o.s.w.s.m.m.a.HttpEntityMethodProcessor] - Writing [{email=email is required}]
+2025-05-28 23:00:49 [http-nio-8080-exec-7] WARN  [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.aditya.entity.Voter> com.aditya.controller.VoterController.registerVoter(com.aditya.entity.Voter): [Field error in object 'voter' on field 'email': rejected value [null]; codes [NotBlank.voter.email,NotBlank.email,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [voter.email,email]; arguments []; default message [email]]; default message [email is required]] ]
+2025-05-28 23:00:49 [http-nio-8080-exec-7] DEBUG [o.s.web.servlet.DispatcherServlet] - Completed 400 BAD_REQUEST
+2025-05-28 23:01:08 [http-nio-8080-exec-10] DEBUG [o.s.web.servlet.DispatcherServlet] - POST "/api/voters/register", parameters={}
+2025-05-28 23:01:08 [http-nio-8080-exec-10] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - Mapped to com.aditya.controller.VoterController#registerVoter(Voter)
+2025-05-28 23:01:08 [http-nio-8080-exec-10] DEBUG [o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor] - Read "application/json;charset=UTF-8" to [Voter(id=null, name=aditya mehta, email=adityamehta242@gmail.com, has_voted=false, voterImg=null, vo (truncated)...]
+2025-05-28 23:01:08 [http-nio-8080-exec-10] DEBUG [org.hibernate.SQL] - select v1_0.id from voter v1_0 where v1_0.email=? limit ?
+2025-05-28 23:01:08 [http-nio-8080-exec-10] INFO  [com.aditya.service.VoterService] - Voter successfully registered: adityamehta242@gmail.com
+2025-05-28 23:01:08 [http-nio-8080-exec-10] DEBUG [org.hibernate.SQL] - insert into voter (email,has_voted,name,voter_img) values (?,?,?,?)
+2025-05-28 23:01:08 [http-nio-8080-exec-10] DEBUG [o.s.w.s.m.m.a.HttpEntityMethodProcessor] - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-05-28 23:01:08 [http-nio-8080-exec-10] DEBUG [o.s.w.s.m.m.a.HttpEntityMethodProcessor] - Writing [Voter(id=1, name=aditya mehta, email=adityamehta242@gmail.com, has_voted=false, voterImg=null, vote= (truncated)...]
+2025-05-28 23:01:08 [http-nio-8080-exec-10] DEBUG [o.s.web.servlet.DispatcherServlet] - Completed 201 CREATED
+2025-05-28 23:05:59 [File Watcher] INFO  [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-28 23:05:59 [Thread-5] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-28 23:05:59 [tomcat-shutdown] INFO  [o.a.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-28 23:05:59 [tomcat-shutdown] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Graceful shutdown complete
+2025-05-28 23:05:59 [Thread-5] INFO  [o.a.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-28 23:05:59 [Thread-5] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-28 23:05:59 [Thread-5] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2025-05-28 23:05:59 [Thread-5] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+2025-05-28 23:05:59 [restartedMain] INFO  [com.aditya.VotezyApplication] - Starting VotezyApplication using Java 21.0.4 with PID 4464 (D:\Code-Practice\Spring-STS\votezy\target\classes started by Aditya-Mehta in D:\Code-Practice\Spring-STS\votezy)
+2025-05-28 23:05:59 [restartedMain] INFO  [com.aditya.VotezyApplication] - No active profile set, falling back to 1 default profile: "default"
+2025-05-28 23:05:59 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-28 23:05:59 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 60 ms. Found 4 JPA repository interfaces.
+2025-05-28 23:05:59 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2025-05-28 23:05:59 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-28 23:05:59 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-05-28 23:05:59 [restartedMain] INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-28 23:05:59 [restartedMain] INFO  [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2025-05-28 23:05:59 [restartedMain] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 600 ms
+2025-05-28 23:06:00 [restartedMain] INFO  [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-28 23:06:00 [restartedMain] INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2025-05-28 23:06:00 [restartedMain] INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-28 23:06:00 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-2 - Starting...
+2025-05-28 23:06:00 [restartedMain] INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ec83f89
+2025-05-28 23:06:00 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-2 - Start completed.
+2025-05-28 23:06:00 [restartedMain] WARN  [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-28 23:06:00 [restartedMain] INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-28 23:06:00 [restartedMain] INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-28 23:06:00 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-28 23:06:00 [restartedMain] WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-28 23:06:00 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - 3 mappings in 'requestMappingHandlerMapping'
+2025-05-28 23:06:00 [restartedMain] DEBUG [o.s.w.s.h.SimpleUrlHandlerMapping] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-05-28 23:06:00 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerAdapter] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-05-28 23:06:00 [restartedMain] DEBUG [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-05-28 23:06:00 [restartedMain] INFO  [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2025-05-28 23:06:00 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-28 23:06:00 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path '/'
+2025-05-28 23:06:00 [restartedMain] INFO  [com.aditya.VotezyApplication] - Started VotezyApplication in 1.487 seconds (process running for 977.892)
+2025-05-28 23:06:00 [restartedMain] INFO  [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2025-05-28 23:06:10 [File Watcher] INFO  [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-28 23:06:10 [Thread-7] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-28 23:06:10 [tomcat-shutdown] INFO  [o.a.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-28 23:06:10 [tomcat-shutdown] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Graceful shutdown complete
+2025-05-28 23:06:10 [Thread-7] INFO  [o.a.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-28 23:06:10 [Thread-7] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-28 23:06:10 [Thread-7] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-2 - Shutdown initiated...
+2025-05-28 23:06:10 [Thread-7] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-2 - Shutdown completed.
+2025-05-28 23:06:10 [restartedMain] INFO  [com.aditya.VotezyApplication] - Starting VotezyApplication using Java 21.0.4 with PID 4464 (D:\Code-Practice\Spring-STS\votezy\target\classes started by Aditya-Mehta in D:\Code-Practice\Spring-STS\votezy)
+2025-05-28 23:06:10 [restartedMain] INFO  [com.aditya.VotezyApplication] - No active profile set, falling back to 1 default profile: "default"
+2025-05-28 23:06:10 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-28 23:06:10 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 12 ms. Found 4 JPA repository interfaces.
+2025-05-28 23:06:10 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2025-05-28 23:06:10 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-28 23:06:10 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-05-28 23:06:10 [restartedMain] INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-28 23:06:10 [restartedMain] INFO  [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2025-05-28 23:06:10 [restartedMain] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 312 ms
+2025-05-28 23:06:10 [restartedMain] INFO  [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-28 23:06:10 [restartedMain] INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2025-05-28 23:06:10 [restartedMain] INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-28 23:06:10 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-3 - Starting...
+2025-05-28 23:06:10 [restartedMain] INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b0ff1dd
+2025-05-28 23:06:10 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-3 - Start completed.
+2025-05-28 23:06:10 [restartedMain] WARN  [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-28 23:06:10 [restartedMain] INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-28 23:06:11 [restartedMain] INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-28 23:06:11 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-28 23:06:11 [restartedMain] WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-28 23:06:11 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - 3 mappings in 'requestMappingHandlerMapping'
+2025-05-28 23:06:11 [restartedMain] DEBUG [o.s.w.s.h.SimpleUrlHandlerMapping] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-05-28 23:06:11 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerAdapter] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-05-28 23:06:11 [restartedMain] DEBUG [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-05-28 23:06:11 [restartedMain] INFO  [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2025-05-28 23:06:11 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-28 23:06:11 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path '/'
+2025-05-28 23:06:11 [restartedMain] INFO  [com.aditya.VotezyApplication] - Started VotezyApplication in 0.863 seconds (process running for 988.452)
+2025-05-28 23:06:11 [restartedMain] INFO  [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2025-05-28 23:06:46 [http-nio-8080-exec-2] INFO  [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-28 23:06:46 [http-nio-8080-exec-2] INFO  [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2025-05-28 23:06:46 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected StandardServletMultipartResolver
+2025-05-28 23:06:46 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected AcceptHeaderLocaleResolver
+2025-05-28 23:06:46 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected FixedThemeResolver
+2025-05-28 23:06:46 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4ed304d4
+2025-05-28 23:06:46 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected org.springframework.web.servlet.support.SessionFlashMapManager@42c4bd84
+2025-05-28 23:06:46 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-05-28 23:06:46 [http-nio-8080-exec-2] INFO  [o.s.web.servlet.DispatcherServlet] - Completed initialization in 2 ms
+2025-05-28 23:06:46 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - POST "/api/voters/register", parameters={}
+2025-05-28 23:06:46 [http-nio-8080-exec-2] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - Mapped to com.aditya.controller.VoterController#registerVoter(Voter)
+2025-05-28 23:06:46 [http-nio-8080-exec-2] DEBUG [o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor] - Read "application/json;charset=UTF-8" to [Voter(id=null, name=aman kumar, email=amankumar.2002@gmail.com, has_voted=false, voterImg=null, vote (truncated)...]
+2025-05-28 23:06:46 [http-nio-8080-exec-2] DEBUG [org.hibernate.SQL] - select v1_0.id from voter v1_0 where v1_0.email=? limit ?
+2025-05-28 23:06:46 [http-nio-8080-exec-2] INFO  [com.aditya.service.VoterService] - Voter successfully registered: amankumar.2002@gmail.com
+2025-05-28 23:06:46 [http-nio-8080-exec-2] DEBUG [org.hibernate.SQL] - insert into voter (email,has_voted,name,voter_img) values (?,?,?,?)
+2025-05-28 23:06:46 [http-nio-8080-exec-2] DEBUG [o.s.w.s.m.m.a.HttpEntityMethodProcessor] - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-05-28 23:06:46 [http-nio-8080-exec-2] DEBUG [o.s.w.s.m.m.a.HttpEntityMethodProcessor] - Writing [Voter(id=2, name=aman kumar, email=amankumar.2002@gmail.com, has_voted=false, voterImg=null, vote=nu (truncated)...]
+2025-05-28 23:06:46 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - Completed 201 CREATED
+2025-05-28 23:07:15 [File Watcher] INFO  [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-28 23:07:15 [Thread-11] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-28 23:07:15 [tomcat-shutdown] INFO  [o.a.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-28 23:07:15 [tomcat-shutdown] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Graceful shutdown complete
+2025-05-28 23:07:15 [Thread-11] INFO  [o.a.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-28 23:07:15 [Thread-11] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-28 23:07:15 [Thread-11] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-3 - Shutdown initiated...
+2025-05-28 23:07:15 [Thread-11] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-3 - Shutdown completed.
+2025-05-28 23:07:15 [restartedMain] INFO  [com.aditya.VotezyApplication] - Starting VotezyApplication using Java 21.0.4 with PID 4464 (D:\Code-Practice\Spring-STS\votezy\target\classes started by Aditya-Mehta in D:\Code-Practice\Spring-STS\votezy)
+2025-05-28 23:07:15 [restartedMain] INFO  [com.aditya.VotezyApplication] - No active profile set, falling back to 1 default profile: "default"
+2025-05-28 23:07:15 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-28 23:07:16 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 36 ms. Found 4 JPA repository interfaces.
+2025-05-28 23:07:16 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2025-05-28 23:07:16 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-28 23:07:16 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-05-28 23:07:16 [restartedMain] INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-28 23:07:16 [restartedMain] INFO  [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2025-05-28 23:07:16 [restartedMain] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 793 ms
+2025-05-28 23:07:16 [restartedMain] INFO  [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-28 23:07:16 [restartedMain] INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2025-05-28 23:07:16 [restartedMain] INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-28 23:07:16 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-4 - Starting...
+2025-05-28 23:07:16 [restartedMain] INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@12decd61
+2025-05-28 23:07:16 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-4 - Start completed.
+2025-05-28 23:07:16 [restartedMain] WARN  [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-28 23:07:16 [restartedMain] INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-28 23:07:16 [restartedMain] INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-28 23:07:16 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-28 23:07:16 [restartedMain] WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-28 23:07:17 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - 3 mappings in 'requestMappingHandlerMapping'
+2025-05-28 23:07:17 [restartedMain] DEBUG [o.s.w.s.h.SimpleUrlHandlerMapping] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-05-28 23:07:17 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerAdapter] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-05-28 23:07:17 [restartedMain] DEBUG [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-05-28 23:07:17 [restartedMain] INFO  [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2025-05-28 23:07:17 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-28 23:07:17 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path '/'
+2025-05-28 23:07:17 [restartedMain] INFO  [com.aditya.VotezyApplication] - Started VotezyApplication in 2.008 seconds (process running for 1054.452)
+2025-05-28 23:07:17 [restartedMain] INFO  [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2025-05-28 23:34:33 [File Watcher] INFO  [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-28 23:34:33 [Thread-15] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-28 23:34:33 [tomcat-shutdown] INFO  [o.a.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-28 23:34:33 [tomcat-shutdown] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Graceful shutdown complete
+2025-05-28 23:34:33 [Thread-15] INFO  [o.a.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-28 23:34:33 [Thread-15] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-28 23:34:33 [Thread-15] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-4 - Shutdown initiated...
+2025-05-28 23:34:33 [Thread-15] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-4 - Shutdown completed.
+2025-05-28 23:34:33 [restartedMain] INFO  [com.aditya.VotezyApplication] - Starting VotezyApplication using Java 21.0.4 with PID 4464 (D:\Code-Practice\Spring-STS\votezy\target\classes started by Aditya-Mehta in D:\Code-Practice\Spring-STS\votezy)
+2025-05-28 23:34:33 [restartedMain] INFO  [com.aditya.VotezyApplication] - No active profile set, falling back to 1 default profile: "default"
+2025-05-28 23:34:33 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-28 23:34:33 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 10 ms. Found 4 JPA repository interfaces.
+2025-05-28 23:34:33 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2025-05-28 23:34:33 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-28 23:34:33 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-05-28 23:34:33 [restartedMain] INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-28 23:34:33 [restartedMain] INFO  [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2025-05-28 23:34:33 [restartedMain] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 302 ms
+2025-05-28 23:34:33 [restartedMain] INFO  [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-28 23:34:33 [restartedMain] INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2025-05-28 23:34:33 [restartedMain] INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-28 23:34:33 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-5 - Starting...
+2025-05-28 23:34:33 [restartedMain] INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4deb6440
+2025-05-28 23:34:33 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-5 - Start completed.
+2025-05-28 23:34:33 [restartedMain] WARN  [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-28 23:34:33 [restartedMain] INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-5)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-28 23:34:34 [restartedMain] INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-28 23:34:34 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-28 23:34:34 [restartedMain] WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-28 23:34:34 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - 3 mappings in 'requestMappingHandlerMapping'
+2025-05-28 23:34:34 [restartedMain] DEBUG [o.s.w.s.h.SimpleUrlHandlerMapping] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-05-28 23:34:34 [restartedMain] DEBUG [o.s.w.s.m.m.a.RequestMappingHandlerAdapter] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-05-28 23:34:34 [restartedMain] DEBUG [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-05-28 23:34:34 [restartedMain] INFO  [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2025-05-28 23:34:34 [restartedMain] INFO  [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-28 23:34:34 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path '/'
+2025-05-28 23:34:34 [restartedMain] INFO  [com.aditya.VotezyApplication] - Started VotezyApplication in 1.045 seconds (process running for 2691.427)
+2025-05-28 23:34:34 [restartedMain] INFO  [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
