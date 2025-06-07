@@ -1,5 +1,8 @@
 package com.aditya.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -22,7 +25,14 @@ public class ElectionResult {
 	
 	@OneToOne
 	@JoinColumn(name = "winner_id")
+	@JsonIgnore
 	private Candidate winner;
 	private int totalVotes;
+	
+	@JsonProperty("winnerId")
+	public Long getWinnerId()
+	{
+		return winner != null ? winner.getId() : null;
+	}
 	
 }

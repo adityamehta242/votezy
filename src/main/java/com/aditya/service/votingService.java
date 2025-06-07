@@ -1,5 +1,7 @@
 package com.aditya.service;
 
+import java.util.List;
+
 import org.springframework.stereotype.Service;
 
 import com.aditya.entity.Candidate;
@@ -14,13 +16,13 @@ import com.aditya.repository.VoterRepository;
 import jakarta.transaction.Transactional;
 
 @Service
-public class votingService {
+public class VotingService {
 
 	private VoteRepository voteRepository;
 	private CandidateRepository candidateRepository;
 	private VoterRepository voterRepository;
 	
-	public votingService(VoteRepository voteRepository, CandidateRepository candidateRepository , VoterRepository voterRepository) {
+	public VotingService(VoteRepository voteRepository, CandidateRepository candidateRepository , VoterRepository voterRepository) {
 		this.voteRepository = voteRepository;
 		this.candidateRepository = candidateRepository;
 		this.voterRepository = voterRepository;
@@ -62,6 +64,11 @@ public class votingService {
 		
 		return vote;
 		
+	}
+	
+	public List<Vote> getAllVotes()
+	{
+		return voteRepository.findAll();
 	}
 	
 }

@@ -10,7 +10,6 @@ import com.aditya.entity.Candidate;
 import com.aditya.entity.Vote;
 import com.aditya.exception.ResourceNotFoundException;
 import com.aditya.repository.CandidateRepository;
-import com.aditya.repository.VoteRepository;
 
 import jakarta.transaction.Transactional;
 

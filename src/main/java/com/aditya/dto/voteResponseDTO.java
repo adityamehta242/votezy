@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class voteResponseDTO {
+public class VoteResponseDTO {
 	private String message;
 	private boolean success;
 	private Long voterId;
